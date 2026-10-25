@@ -276,6 +276,99 @@ def render_full_exam(factory: VoiceFactory, exam_no: int, parts: list[dict]) -> 
 
 
 # ---------------------------------------------------------------------------
+# Ban luyen chep chinh ta (dictation): tung cau, nghi 5.5s, doc lai toan bai
+# ---------------------------------------------------------------------------
+ABBREVIATIONS = ("Mrs.", "Mr.", "Dr.", "Ms.", "a.m.", "p.m.", "e.g.", "i.e.")
+DICTATION = RenderConfig(1.15, 0.20, 0.50, 0.75)
+DICTATION_GAP = 5.5
+
+
+def split_sentences(text: str) -> list[str]:
+    """Tach cau bao toan cac viet tat (Dr., Mrs., a.m....)."""
+    protected, marks = text, {}
+    for i, abbr in enumerate(ABBREVIATIONS):
+        token = f"§{i}§"
+        marks[token] = abbr
+        protected = protected.replace(abbr, token)
+    chunks = re.split(r'(?<=[.!?])[”"\']?\s+', protected)
+    sentences = []
+    for chunk in chunks:
+        for token, abbr in marks.items():
+            chunk = chunk.replace(token, abbr)
+        chunk = chunk.strip()
+        if chunk:
+            sentences.append(chunk)
+    return sentences
+
+
+def render_dictation(factory: VoiceFactory, exercise: dict) -> array.array:
+    intro = (
+        f"Dictation practice. {exercise['title']}. Write down each sentence. "
+        "Each sentence is read once, followed by a short pause."
+    )
+    out = pcm_silence(0.5)
+    out.extend(pcm_tone())
+    out.extend(pcm_silence(0.4))
+    out.extend(factory.synth(intro, "announcer", sentence_silence=0.25))
+    out.extend(pcm_silence(1.0))
+    out.extend(pcm_tone())
+    out.extend(pcm_silence(0.8))
+
+    n_sentences = 0
+    for block in exercise["blocks"]:
+        for sentence in split_sentences(normalize_text(block["text"])):
+            out.extend(factory.synth(sentence, block["voice"],
+                                     length_scale=DICTATION.length_scale,
+                                     sentence_silence=DICTATION.sentence_silence))
+            out.extend(pcm_silence(DICTATION_GAP))
+            n_sentences += 1
+
+    out.extend(pcm_silence(1.2))
+    out.extend(pcm_tone())
+    out.extend(pcm_silence(0.4))
+    out.extend(factory.synth(
+        "Now listen to the complete text and check your writing.", "announcer"))
+    out.extend(pcm_silence(1.0))
+    out.extend(render_content(factory, exercise, CLEAN))
+    out.extend(pcm_silence(0.8))
+    out.extend(pcm_tone())
+    out.extend(pcm_silence(0.4))
+    out.extend(factory.synth("That is the end of the dictation.", "announcer"))
+    out.extend(pcm_silence(1.0))
+    return peak_normalize(out)
+
+
+def write_playlists() -> None:
+    """Tao playlist M3U duong dan tuong doi, phat duoc tren moi nghe nhac."""
+    pl_dir = OUT_BASE / "playlists"
+    pl_dir.mkdir(parents=True, exist_ok=True)
+    exams = sorted(p.name for p in OUT_BASE.glob("de*") if p.is_dir())
+
+    def m3u(name: str, relative_files: list[str], label: str) -> None:
+        lines = ["#EXTM3U", f"#PLAYLIST:{label}"]
+        for i, rel in enumerate(relative_files, 1):
+            lines.append(f"#EXTINF:-1,{Path(rel).stem}")
+            lines.append(rel)
+        (pl_dir / name).write_text("\n".join(lines) + "\n", "utf-8")
+
+    full, clean, slow, dictation = [], [], [], []
+    for exam in exams:
+        for mp3 in sorted((OUT_BASE / exam).glob("*.mp3")):
+            rel = f"../{exam}/{mp3.name}"
+            if mp3.name.endswith("_full_exam.mp3"):
+                full.append(rel)
+            elif mp3.name.endswith("_clean.mp3"):
+                clean.append(rel)
+            elif mp3.name.endswith("_slow.mp3"):
+                slow.append(rel)
+            elif mp3.name.endswith("_dictation.mp3"):
+                dictation.append(rel)
+    m3u("01-exam-simulation.m3u", full, "GK1 2026-2027 - Mo phong de thi (day du Part 1+2)")
+    m3u("02-natural-speed-practice.m3u", clean, "Luyen nghe toc do tu nhien")
+    m3u("03-slow-and-dictation.m3u", slow + dictation, "Nghe cham & chep chinh ta")
+
+
+# ---------------------------------------------------------------------------
 # Ma hoa MP3 + metadata
 # ---------------------------------------------------------------------------
 def encode_mp3(wav_path: Path, mp3_path: Path, tags: dict) -> None:
@@ -305,7 +398,8 @@ def sha256_file(path: Path) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build MP3 listening tracks (offline Piper TTS).")
     ap.add_argument("--exam", choices=["1", "2", "all"], default="all")
-    ap.add_argument("--variants", choices=["clean", "slow", "exam", "all"], default="all")
+    ap.add_argument("--variants",
+                    choices=["clean", "slow", "exam", "dictation", "all"], default="all")
     args = ap.parse_args()
 
     from tapescripts import EXERCISES, EXAMS
@@ -314,11 +408,11 @@ def main() -> None:
     factory = VoiceFactory()
     manifest = json.loads((OUT_BASE / "manifest.json").read_text("utf-8")) \
         if (OUT_BASE / "manifest.json").exists() else {"tracks": []}
-    known_ids = {t["id"] + "|" + t["variant"] for t in manifest["tracks"]}
 
     wanted = [ex for ex in EXERCISES
               if args.exam == "all" or str(ex["exam"]) == args.exam]
-    variants = ["clean", "slow", "exam"] if args.variants == "all" else [args.variants]
+    variants = (["clean", "slow", "exam", "dictation"] if args.variants == "all"
+                else [args.variants])
 
     for ex in wanted:
         out_dir = OUT_BASE / f"de{ex['exam']:02d}"
@@ -340,6 +434,8 @@ def main() -> None:
                      f"{ex['id']} {ex['title']} (slow dictation practice)"),
             "exam": (render_exam(factory, ex),
                      f"{ex['id']} {ex['title']} (full exam version, two listenings)"),
+            "dictation": (render_dictation(factory, ex),
+                          f"{ex['id']} {ex['title']} (sentence-by-sentence dictation)"),
         }
         for variant in variants:
             pcm, title = renders[variant]
@@ -408,6 +504,10 @@ def main() -> None:
         json.dumps(manifest, ensure_ascii=False, indent=2), "utf-8")
     print(f"\nManifest: {(OUT_BASE / 'manifest.json').relative_to(ROOT)} "
           f"({len(manifest['tracks'])} tracks)")
+
+    if args.variants == "all" and args.exam == "all":
+        write_playlists()
+        print(f"Playlists: {(OUT_BASE / 'playlists').relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

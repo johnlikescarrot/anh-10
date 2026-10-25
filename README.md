@@ -8,8 +8,8 @@ Tài liệu phân tích chuyên sâu tệp ma trận gốc **`2026_2027_MA TRẬ
 
 ## Bộ File Luyện Nghe MP3 (TTS Neural · Offline)
 
-- **[`audio/listening/`](./audio/listening/)** — bộ MP3 phủ **100% 04 tapescripts** của 02 đề thi thử, mỗi bài 03 phiên bản: `_clean` (tốc độ tự nhiên), `_slow` (chậm 30%), `_exam` (chuẩn phòng thi: lời dẫn, 30 giây đọc đề, nghe 2 lần, 10 giây kiểm tra, tiếng bíp) + file góp cả đề `DE0x-listening-full_exam.mp3`.
-- 05 giọng đọc neural Piper VITS chất lượng medium (3 nữ · 2 nam, Anh-Mỹ/Anh-Anh), MP3 96 kbps kèm ID3 tag; quy trình tái tạo & kiểm chứng tự động nằm trong [`scripts/tts/`](./scripts/tts/) (chi tiết: [`audio/listening/README.md`](./audio/listening/README.md)).
+- **[`audio/listening/`](./audio/listening/)** — **18 MP3** phủ **100% 04 tapescripts** của 02 đề thi thử, mỗi bài 04 phiên bản: `_clean` (tốc độ tự nhiên), `_slow` (chậm 30%), `_dictation` (chép chính tả từng câu, có khoảng nghỉ 5,5 giây), `_exam` (chuẩn phòng thi: lời dẫn, 30 giây đọc đề, nghe 2 lần, 10 giây kiểm tra, tiếng bíp) + file góp cả đề `DE0x-listening-full_exam.mp3` và 03 playlist M3U.
+- 05 giọng đọc neural Piper VITS chất lượng medium (3 nữ · 2 nam, Anh-Mỹ/Anh-Anh), MP3 96 kbps kèm ID3 tag; quy trình tái tạo & kiểm chứng tự động (gồm đối chiếu độ phủ 100%) nằm trong [`scripts/tts/`](./scripts/tts/) (chi tiết: [`audio/listening/README.md`](./audio/listening/README.md)).
 
 ---
 

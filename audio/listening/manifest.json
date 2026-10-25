@@ -4,9 +4,22 @@
       "id": "DE01-P1",
       "variant": "clean",
       "file": "audio/listening/de01/DE01-P1-housework-conversation_clean.mp3",
-      "duration_seconds": 61.88,
-      "size_bytes": 743798,
-      "sha256": "cba6cedb326906eadc594a92277302f958df13609d1a5e055db33cf54760cc12",
+      "duration_seconds": 61.51,
+      "size_bytes": 739410,
+      "sha256": "a0108d7d88f1a5861a2b17000096137cecb2938a19c6333a2cb45af4a58a6601",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium",
+        "en_US-lessac-medium"
+      ]
+    },
+    {
+      "id": "DE01-P1",
+      "variant": "dictation",
+      "file": "audio/listening/de01/DE01-P1-housework-conversation_dictation.mp3",
+      "duration_seconds": 236.07,
+      "size_bytes": 2834020,
+      "sha256": "250108eb5a0a884daeea63607904fb7438dacb710d08abef8f5b86fc884c1618",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium",
@@ -17,9 +30,9 @@
       "id": "DE01-P1",
       "variant": "exam",
       "file": "audio/listening/de01/DE01-P1-housework-conversation_exam.mp3",
-      "duration_seconds": 194.78,
-      "size_bytes": 2338742,
-      "sha256": "675bf8b8f3329f441c32e303e00db404ceaaa1d8da6e26c8d2d61b8e74c98555",
+      "duration_seconds": 195.76,
+      "size_bytes": 2350340,
+      "sha256": "3ca3327f8b9a74e62505ca1ff6b71ad9ed131b1af5ff52ef5c5d101425170f2d",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium",
@@ -30,9 +43,9 @@
       "id": "DE01-P1",
       "variant": "slow",
       "file": "audio/listening/de01/DE01-P1-housework-conversation_slow.mp3",
-      "duration_seconds": 73.51,
-      "size_bytes": 883293,
-      "sha256": "d15d7b77229af78dcc3f0cb1a369da71867d13bdd3bd410b6d88a57b763f8333",
+      "duration_seconds": 73.26,
+      "size_bytes": 880472,
+      "sha256": "f0d1401380af143be77e35937c900b02f6ab6242dd6e926ea5ef11bf1dc5f46d",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium",
@@ -43,9 +56,21 @@
       "id": "DE01-P2",
       "variant": "clean",
       "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_clean.mp3",
-      "duration_seconds": 61.26,
-      "size_bytes": 736546,
-      "sha256": "b609b68c80e7403739faeb1f4daba5c5045e1dca81af53037b0cda03cc62bb76",
+      "duration_seconds": 62.13,
+      "size_bytes": 746890,
+      "sha256": "3a4daaa27f0f1fb24345b4fd6acdae86f0dca1dcd60ffcfe0b41e0ceaa6fafc1",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE01-P2",
+      "variant": "dictation",
+      "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_dictation.mp3",
+      "duration_seconds": 201.86,
+      "size_bytes": 2423646,
+      "sha256": "b47b057935893cd6811fe258dd28c5b04d8ee78bbd39176ccc7bcf5bb224701c",
       "voices": [
         "en_GB-alan-medium",
         "en_US-ryan-medium"
@@ -55,9 +80,9 @@
       "id": "DE01-P2",
       "variant": "exam",
       "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_exam.mp3",
-      "duration_seconds": 193.49,
-      "size_bytes": 2323339,
-      "sha256": "bbdb4c1217e35332440ff336c13db746b1147084b47ce2328a9c0fb11efe3e47",
+      "duration_seconds": 194.41,
+      "size_bytes": 2334310,
+      "sha256": "3a516bec41ebde36ba4c2c5a7dd678e165452f79f2d874b4f39aae03b48b6241",
       "voices": [
         "en_GB-alan-medium",
         "en_US-ryan-medium"
@@ -67,9 +92,9 @@
       "id": "DE01-P2",
       "variant": "slow",
       "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_slow.mp3",
-      "duration_seconds": 71.65,
-      "size_bytes": 861307,
-      "sha256": "1e044e7416e6f6a37cdd3d0699623eccd1dff91c8f4dbd8f5359409fe3ccac25",
+      "duration_seconds": 70.75,
+      "size_bytes": 850336,
+      "sha256": "2476102ea0b45568ad2b44aa5717b1240147af0645ff2e9b96d27043943ee7ce",
       "voices": [
         "en_GB-alan-medium",
         "en_US-ryan-medium"
@@ -79,9 +104,9 @@
       "id": "DE01-FULL",
       "variant": "exam",
       "file": "audio/listening/de01/DE01-listening-full_exam.mp3",
-      "duration_seconds": 395.79,
-      "size_bytes": 4750703,
-      "sha256": "6f51b3a880e76b0c537fd0b39c812967ba64b9d0b1592d59d92b0b54fee87e9f",
+      "duration_seconds": 398.04,
+      "size_bytes": 4777661,
+      "sha256": "356ca4b92b2377e2c7ffa2acd48c00d1e32d8a5ccfe396024b02f7c022c28e4e",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium",
@@ -93,9 +118,21 @@
       "id": "DE02-P1",
       "variant": "clean",
       "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_clean.mp3",
-      "duration_seconds": 66.76,
-      "size_bytes": 802382,
-      "sha256": "f0135c3915e49642fc22fb7f95e1a7ecf7749d038838f4ee94fb2c40b0905f7f",
+      "duration_seconds": 66.42,
+      "size_bytes": 798307,
+      "sha256": "8e67cb04cd8628f90f0df1551edb80a75af3c8f49a28a186a490905bcd836ba5",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium"
+      ]
+    },
+    {
+      "id": "DE02-P1",
+      "variant": "dictation",
+      "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_dictation.mp3",
+      "duration_seconds": 198.01,
+      "size_bytes": 2377574,
+      "sha256": "54ccdec27c6101f6a556e8f693c5d97cb251a5f8d24d805f76fbbbf39cd49e9b",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium"
@@ -105,9 +142,9 @@
       "id": "DE02-P1",
       "variant": "exam",
       "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_exam.mp3",
-      "duration_seconds": 202.92,
-      "size_bytes": 2436196,
-      "sha256": "ae22030979fba900ff301c9ba48e3c9eb6df9799b2acf6a3b2df3d95dd6ca1bd",
+      "duration_seconds": 204.58,
+      "size_bytes": 2456258,
+      "sha256": "0cd8ee1b3d4eb919166d4d47cb442e805a5b1e1a657e18e67ca949e8fe300cfa",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium"
@@ -117,9 +154,9 @@
       "id": "DE02-P1",
       "variant": "slow",
       "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_slow.mp3",
-      "duration_seconds": 77.11,
-      "size_bytes": 926517,
-      "sha256": "b3618490e251ed578e73047df1aecde195de69b8f9c644c4af8f8473cb011dcc",
+      "duration_seconds": 76.04,
+      "size_bytes": 913665,
+      "sha256": "6d9fe9948cad017d1ab6f8bb7103e30c136360030db96cc695a57a3d4b0699cf",
       "voices": [
         "en_GB-alan-medium",
         "en_US-hfc_female-medium"
@@ -129,9 +166,22 @@
       "id": "DE02-P2",
       "variant": "clean",
       "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_clean.mp3",
-      "duration_seconds": 68.17,
-      "size_bytes": 819343,
-      "sha256": "87870299670b9f2d2f915332cedfd3854609bd745d743a4586ca30ebccc5e1ec",
+      "duration_seconds": 67.91,
+      "size_bytes": 816208,
+      "sha256": "9f4911258a4efbd5c5b0e2b1361ec32b115de27fba1b25ea9bd4cbd910609b74",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_GB-jenny_dioco-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE02-P2",
+      "variant": "dictation",
+      "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_dictation.mp3",
+      "duration_seconds": 240.74,
+      "size_bytes": 2890129,
+      "sha256": "d373ae09c05b03940edcee27bef3b2cfb626e8d212435bfa9169fc367808a6f2",
       "voices": [
         "en_GB-alan-medium",
         "en_GB-jenny_dioco-medium",
@@ -142,9 +192,9 @@
       "id": "DE02-P2",
       "variant": "exam",
       "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_exam.mp3",
-      "duration_seconds": 207.5,
-      "size_bytes": 2491399,
-      "sha256": "087cf6dfb678f41c3cbab140da896ce20a0ff0a26d9a78a9fd4f584678f57a70",
+      "duration_seconds": 208.42,
+      "size_bytes": 2502371,
+      "sha256": "b64efb5a06ad5727eba26a31ade81cd179fb67a5b59a4ec9afb675fc5cb5a123",
       "voices": [
         "en_GB-alan-medium",
         "en_GB-jenny_dioco-medium",
@@ -155,9 +205,9 @@
       "id": "DE02-P2",
       "variant": "slow",
       "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_slow.mp3",
-      "duration_seconds": 81.05,
-      "size_bytes": 973884,
-      "sha256": "4ac11d97f04e32e7c1574a8e9dde3909b7a212c3c822672de28ebe293d790a12",
+      "duration_seconds": 80.83,
+      "size_bytes": 971376,
+      "sha256": "f254821c016ce0136c2093a96f820328695e18eff6c15e67e19f762bc90c6e25",
       "voices": [
         "en_GB-alan-medium",
         "en_GB-jenny_dioco-medium",
@@ -168,9 +218,9 @@
       "id": "DE02-FULL",
       "variant": "exam",
       "file": "audio/listening/de02/DE02-listening-full_exam.mp3",
-      "duration_seconds": 418.47,
-      "size_bytes": 5022794,
-      "sha256": "9e27e25afab77fe75efcd9f314a640d9bf48dee097150f0655eba8076cc2931f",
+      "duration_seconds": 419.92,
+      "size_bytes": 5040035,
+      "sha256": "60c2dcedb448b42195061a3b831a7598468fc6340ba05bf9f0979bfee8e8592b",
       "voices": [
         "en_GB-alan-medium",
         "en_GB-jenny_dioco-medium",

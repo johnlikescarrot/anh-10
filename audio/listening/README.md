@@ -30,16 +30,19 @@ thoại Anh-Mỹ).
 
 ## 2. Quy ước tên file & 03 phiên bản mỗi bài
 
-Mỗi bài nghe có mã `<Đề>-<Part>-<slug>` và 03 phiên bản:
+Mỗi bài nghe có mã `<Đề>-<Part>-<slug>` và 04 phiên bản:
 
 | Hậu tố | Nội dung | Mục đích sử dụng |
 |---|---|---|
 | `_clean.mp3` | Đọc **một lần**, tốc độ tự nhiên (~160–170 từ/phút), nghỉ tự nhiên giữa lượt lời/đoạn văn | Nghe nắm ý, nghe lặp nhiều lần, shadowing |
-| `_slow.mp3` | Đọc **chậm 30%** (length scale 1,30), khoảng nghỉ dài hơn | Nghe chi tiết, chép chính tả (dictation), bắt từ còn yếu |
+| `_slow.mp3` | Đọc **chậm 30%** (length scale 1,30), khoảng nghỉ dài hơn | Nghe chi tiết, bắt từ còn yếu |
+| `_dictation.mp3` | **Chép chính tả từng câu**: mỗi câu đọc một lần (chậm nhẹ 1,15×) rồi nghỉ 5,5 giây để viết; hết bài đọc lại trọn vẹn một lượt để đối chiếu | Luyện dictation, chính tả và ngữ pháp nghe |
 | `_exam.mp3` | **Bản chuẩn phòng thi**: tiếng bíp → lời dẫn → 30 giây đọc câu hỏi → nghe lần 1 → 10 giây kiểm tra → nghe lần 2 → tiếng bíp kết thúc | Luyện thi mô phỏng thật, bấm giờ như đề chính thức |
 
 Ngoài ra mỗi đề có file góp `DE0x-listening-full_exam.mp3` (Part 1 + Part 2
-liền mạch, có lời chuyển phần) để thi thử trọn vẹn kỹ năng Listening.
+liền mạch, có lời chuyển phần) để thi thử trọn vẹn kỹ năng Listening. Thư mục
+[`playlists/`](./playlists) chứa 03 playlist M3U đường dẫn tương đối: mô phỏng
+đề thi, luyện tốc độ tự nhiên, và nghe chậm + chép chính tả.
 
 ## 3. Danh mục track
 
@@ -51,28 +54,33 @@ lưu tự động trong [`manifest.json`](./manifest.json). Dưới đây là t�
 | File | Nội dung | Thời lượng |
 |---|---|---|
 | `DE01-P1-housework-conversation_clean.mp3` | Hội thoại An & Mrs. Lan — việc nhà (182 từ) | ~62 giây |
-| `DE01-P1-housework-conversation_slow.mp3` | Bản chậm | ~74 giây |
-| `DE01-P1-housework-conversation_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 15 |
-| `DE01-P2-minh-khoa-radio-talk_clean.mp3` | Radio talk về thí sinh Minh Khoa (181 từ) | ~61 giây |
-| `DE01-P2-minh-khoa-radio-talk_slow.mp3` | Bản chậm | ~72 giây |
+| `DE01-P1-housework-conversation_slow.mp3` | Bản chậm 30% | ~73 giây |
+| `DE01-P1-housework-conversation_dictation.mp3` | Chép chính tả từng câu (17 câu) | ~3 phút 56 |
+| `DE01-P1-housework-conversation_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 16 |
+| `DE01-P2-minh-khoa-radio-talk_clean.mp3` | Radio talk về thí sinh Minh Khoa (181 từ) | ~62 giây |
+| `DE01-P2-minh-khoa-radio-talk_slow.mp3` | Bản chậm 30% | ~71 giây |
+| `DE01-P2-minh-khoa-radio-talk_dictation.mp3` | Chép chính tả từng câu (10 câu) | ~3 phút 22 |
 | `DE01-P2-minh-khoa-radio-talk_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 14 |
-| `DE01-listening-full_exam.mp3` | Góp trọn Part 1 + Part 2 mô phỏng đề thi | ~6 phút 36 |
+| `DE01-listening-full_exam.mp3` | Góp trọn Part 1 + Part 2 mô phỏng đề thi | ~6 phút 38 |
 
 ### Đề thi thử số 02 — `de02/`
 
 | File | Nội dung | Thời lượng |
 |---|---|---|
-| `DE02-P1-eco-campus-fair-announcement_clean.mp3` | Mai thông báo hội chợ Eco-Campus (186 từ) | ~67 giây |
-| `DE02-P1-eco-campus-fair-announcement_slow.mp3` | Bản chậm | ~77 giây |
-| `DE02-P1-eco-campus-fair-announcement_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 23 |
+| `DE02-P1-eco-campus-fair-announcement_clean.mp3` | Mai thông báo hội chợ Eco-Campus (186 từ) | ~66 giây |
+| `DE02-P1-eco-campus-fair-announcement_slow.mp3` | Bản chậm 30% | ~76 giây |
+| `DE02-P1-eco-campus-fair-announcement_dictation.mp3` | Chép chính tả từng câu (08 câu) | ~3 phút 18 |
+| `DE02-P1-eco-campus-fair-announcement_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 25 |
 | `DE02-P2-family-mealtime-interview_clean.mp3` | Phỏng vấn Dr. Hoang Minh — bữa cơm gia đình (187 từ) | ~68 giây |
-| `DE02-P2-family-mealtime-interview_slow.mp3` | Bản chậm | ~81 giây |
+| `DE02-P2-family-mealtime-interview_slow.mp3` | Bản chậm 30% | ~81 giây |
+| `DE02-P2-family-mealtime-interview_dictation.mp3` | Chép chính tả từng câu (15 câu) | ~4 phút 01 |
 | `DE02-P2-family-mealtime-interview_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 28 |
-| `DE02-listening-full_exam.mp3` | Góp trọn Part 1 + Part 2 mô phỏng đề thi | ~6 phút 58 |
+| `DE02-listening-full_exam.mp3` | Góp trọn Part 1 + Part 2 mô phỏng đề thi | ~7 phút 00 |
 
-> Tổng cộng **14 file MP3** cho cả 02 đề (04 bài nghe × 03 phiên bản + 02 file
+> Tổng cộng **18 file MP3** cho cả 02 đề (04 bài nghe × 04 phiên bản + 02 file
 > góp), khớp 100% 04 tapescripts trong PDF; mọi thông số kỹ thuật lưu trong
-> [`manifest.json`](./manifest.json).
+> [`manifest.json`](./manifest.json) và được đối chiếu tự động bằng
+> `scripts/tts/check_coverage.py`.
 
 ## 4. Tái tạo hoàn toàn offline
 
@@ -93,14 +101,18 @@ bash scripts/tts/download_models.sh
 # 4. Kiểm chứng chất lượng: cấu trúc phòng thi, khoảng lặng 30s/10s,
 #    tiếng bíp 880 Hz, ID3 tags, thời lượng khớp manifest
 .venv-tts/bin/python scripts/tts/verify_audio.py
+
+# 5. Đối chiếu độ phủ 100%: mọi tapescript trong PDF đều có đủ 04 phiên bản MP3
+.venv-tts/bin/python scripts/tts/check_coverage.py
 ```
 
 | Script | Vai trò |
 |---|---|
 | [`scripts/tts/tapescripts.py`](../../scripts/tts/tapescripts.py) | Nguyên văn 04 tapescripts, phân vai giọng & lời dẫn đề thi |
-| [`scripts/tts/build_listening_audio.py`](../../scripts/tts/build_listening_audio.py) | Engine tổng hợp PCM, ghép khoảng lặng/tiếng bíp, chuẩn hóa âm lượng, mã hóa MP3 + ID3 |
+| [`scripts/tts/build_listening_audio.py`](../../scripts/tts/build_listening_audio.py) | Engine tổng hợp PCM, ghép khoảng lặng/tiếng bíp, chuẩn hóa âm lượng, mã hóa MP3 + ID3, xuất playlist M3U |
 | [`scripts/tts/download_models.sh`](../../scripts/tts/download_models.sh) | Tải & sắp xếp model Piper từ các repository nguồn |
-| [`scripts/tts/verify_audio.py`](../../scripts/tts/verify_audio.py) | Tự động kiểm chứng toàn bộ track sau khi dựng |
+| [`scripts/tts/verify_audio.py`](../../scripts/tts/verify_audio.py) | Tự động kiểm chứng cấu trúc/thời lượng/tag của toàn bộ track |
+| [`scripts/tts/check_coverage.py`](../../scripts/tts/check_coverage.py) | Chứng minh phủ 100% tapescript PDF: đối chiếu nguyên văn từng câu + sự đủ mặt các biến thể |
 
 ## 5. Bản quyền & nguồn gốc model
 

@@ -124,6 +124,13 @@ def main() -> int:
                 failures.append(f"{tag}: khong tim thay khoang kiem tra ~10s (runs={runs})")
             if not has_880hz_tone(pcm):
                 failures.append(f"{tag}: khong phat hien tieng bep 880Hz")
+        elif rec["variant"] == "dictation":
+            write_gaps = [r for r in runs if 4.5 <= r <= 7.0]
+            if len(write_gaps) < 8:
+                failures.append(f"{tag}: du kien >=8 khoang nghi chep 5.5s, "
+                                f"thay {len(write_gaps)} (runs={runs})")
+            if not has_880hz_tone(pcm):
+                failures.append(f"{tag}: khong phat hien tieng bep 880Hz")
         else:
             bad = [r for r in runs if r > 2.0]
             if bad:
