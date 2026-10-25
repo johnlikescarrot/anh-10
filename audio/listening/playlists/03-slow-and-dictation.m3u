@@ -1,0 +1,18 @@
+#EXTM3U
+#PLAYLIST:Nghe cham & chep chinh ta
+#EXTINF:-1,DE01-P1-housework-conversation_slow
+../de01/DE01-P1-housework-conversation_slow.mp3
+#EXTINF:-1,DE01-P2-minh-khoa-radio-talk_slow
+../de01/DE01-P2-minh-khoa-radio-talk_slow.mp3
+#EXTINF:-1,DE02-P1-eco-campus-fair-announcement_slow
+../de02/DE02-P1-eco-campus-fair-announcement_slow.mp3
+#EXTINF:-1,DE02-P2-family-mealtime-interview_slow
+../de02/DE02-P2-family-mealtime-interview_slow.mp3
+#EXTINF:-1,DE01-P1-housework-conversation_dictation
+../de01/DE01-P1-housework-conversation_dictation.mp3
+#EXTINF:-1,DE01-P2-minh-khoa-radio-talk_dictation
+../de01/DE01-P2-minh-khoa-radio-talk_dictation.mp3
+#EXTINF:-1,DE02-P1-eco-campus-fair-announcement_dictation
+../de02/DE02-P1-eco-campus-fair-announcement_dictation.mp3
+#EXTINF:-1,DE02-P2-family-mealtime-interview_dictation
+../de02/DE02-P2-family-mealtime-interview_dictation.mp3

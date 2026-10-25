@@ -6,6 +6,11 @@ Tài liệu phân tích chuyên sâu tệp ma trận gốc **`2026_2027_MA TRẬ
 
 - **[`DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf`](./DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf)** *(35 trang A4, định dạng PDF chất lượng xuất bản, tích hợp 62 mục lục đánh dấu trang tương tác)*.
 
+## Bộ File Luyện Nghe MP3 (TTS Neural · Offline)
+
+- **[`audio/listening/`](./audio/listening/)** — **18 MP3** phủ **100% 04 tapescripts** của 02 đề thi thử, mỗi bài 04 phiên bản: `_clean` (tốc độ tự nhiên), `_slow` (chậm 30%), `_dictation` (chép chính tả từng câu, có khoảng nghỉ 5,5 giây), `_exam` (chuẩn phòng thi: lời dẫn, 30 giây đọc đề, nghe 2 lần, 10 giây kiểm tra, tiếng bíp) + file góp cả đề `DE0x-listening-full_exam.mp3` và 03 playlist M3U.
+- 05 giọng đọc neural Piper VITS chất lượng medium (3 nữ · 2 nam, Anh-Mỹ/Anh-Anh), MP3 96 kbps kèm ID3 tag; quy trình tái tạo & kiểm chứng tự động (gồm đối chiếu độ phủ 100%) nằm trong [`scripts/tts/`](./scripts/tts/) (chi tiết: [`audio/listening/README.md`](./audio/listening/README.md)).
+
 ---
 
 ## Tóm tắt Phân tích Chuyên sâu Ma trận & Đặc tả (`2026_2027_MA TRẬN 10_GK1.docx`)

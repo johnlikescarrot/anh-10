@@ -1,0 +1,11 @@
+# Python virtual environments & caches
+.venv-tts/
+__pycache__/
+*.pyc
+
+# Neural TTS voice models and intermediate WAV renders (reproducible via scripts/tts/)
+.tts-models/
+
+# OS / editor noise
+.DS_Store
+*.swp

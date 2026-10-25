@@ -1,0 +1,6 @@
+#EXTM3U
+#PLAYLIST:GK1 2026-2027 - Mo phong de thi (day du Part 1+2)
+#EXTINF:-1,DE01-listening-full_exam
+../de01/DE01-listening-full_exam.mp3
+#EXTINF:-1,DE02-listening-full_exam
+../de02/DE02-listening-full_exam.mp3

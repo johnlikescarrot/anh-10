@@ -1,0 +1,10 @@
+#EXTM3U
+#PLAYLIST:Luyen nghe toc do tu nhien
+#EXTINF:-1,DE01-P1-housework-conversation_clean
+../de01/DE01-P1-housework-conversation_clean.mp3
+#EXTINF:-1,DE01-P2-minh-khoa-radio-talk_clean
+../de01/DE01-P2-minh-khoa-radio-talk_clean.mp3
+#EXTINF:-1,DE02-P1-eco-campus-fair-announcement_clean
+../de02/DE02-P1-eco-campus-fair-announcement_clean.mp3
+#EXTINF:-1,DE02-P2-family-mealtime-interview_clean
+../de02/DE02-P2-family-mealtime-interview_clean.mp3
