@@ -1,0 +1,93 @@
+{
+  "tracks": [
+    {
+      "id": "DE01-P1",
+      "variant": "clean",
+      "file": "audio/listening/de01/DE01-P1-housework-conversation_clean.mp3",
+      "duration_seconds": 61.88,
+      "size_bytes": 743798,
+      "sha256": "cba6cedb326906eadc594a92277302f958df13609d1a5e055db33cf54760cc12",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium",
+        "en_US-lessac-medium"
+      ]
+    },
+    {
+      "id": "DE01-P1",
+      "variant": "exam",
+      "file": "audio/listening/de01/DE01-P1-housework-conversation_exam.mp3",
+      "duration_seconds": 194.78,
+      "size_bytes": 2338742,
+      "sha256": "675bf8b8f3329f441c32e303e00db404ceaaa1d8da6e26c8d2d61b8e74c98555",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium",
+        "en_US-lessac-medium"
+      ]
+    },
+    {
+      "id": "DE01-P1",
+      "variant": "slow",
+      "file": "audio/listening/de01/DE01-P1-housework-conversation_slow.mp3",
+      "duration_seconds": 73.51,
+      "size_bytes": 883293,
+      "sha256": "d15d7b77229af78dcc3f0cb1a369da71867d13bdd3bd410b6d88a57b763f8333",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium",
+        "en_US-lessac-medium"
+      ]
+    },
+    {
+      "id": "DE01-P2",
+      "variant": "clean",
+      "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_clean.mp3",
+      "duration_seconds": 61.26,
+      "size_bytes": 736546,
+      "sha256": "b609b68c80e7403739faeb1f4daba5c5045e1dca81af53037b0cda03cc62bb76",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE01-P2",
+      "variant": "exam",
+      "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_exam.mp3",
+      "duration_seconds": 193.49,
+      "size_bytes": 2323339,
+      "sha256": "bbdb4c1217e35332440ff336c13db746b1147084b47ce2328a9c0fb11efe3e47",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE01-P2",
+      "variant": "slow",
+      "file": "audio/listening/de01/DE01-P2-minh-khoa-radio-talk_slow.mp3",
+      "duration_seconds": 71.65,
+      "size_bytes": 861307,
+      "sha256": "1e044e7416e6f6a37cdd3d0699623eccd1dff91c8f4dbd8f5359409fe3ccac25",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE01-FULL",
+      "variant": "exam",
+      "file": "audio/listening/de01/DE01-listening-full_exam.mp3",
+      "duration_seconds": 395.79,
+      "size_bytes": 4750703,
+      "sha256": "6f51b3a880e76b0c537fd0b39c812967ba64b9d0b1592d59d92b0b54fee87e9f",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium",
+        "en_US-lessac-medium",
+        "en_US-ryan-medium"
+      ]
+    }
+  ]
+}
