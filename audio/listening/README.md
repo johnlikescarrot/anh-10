@@ -23,6 +23,11 @@ Mô hình TTS neural **Piper VITS, chất lượng medium, 22,05 kHz**, mã hóa
 | `f_jenny` | `en_GB-jenny_dioco-medium` | Nữ | Anh-Anh | Người dẫn chương trình *Family Matters* (Đề 02-P2) |
 | `m_ryan` | `en_US-ryan-medium` | Nam | Anh-Mỹ | Dẫn *Youth Spotlight* (Đề 01-P2), Dr. Hoang Minh (Đề 02-P2) |
 
+Bốn bài nghe bao phủ đủ ba dạng ngữ liệu theo ma trận: **hội thoại hai nữ**
+(Đề 01-P1), **độc thoại radio nam** (Đề 01-P2), **độc thoại thông báo nữ**
+(Đề 02-P1) và **phỏng vấn nam – nữ khác giọng vùng** (Đề 02-P2, Anh-Anh đối
+thoại Anh-Mỹ).
+
 ## 2. Quy ước tên file & 03 phiên bản mỗi bài
 
 Mỗi bài nghe có mã `<Đề>-<Part>-<slug>` và 03 phiên bản:
@@ -55,8 +60,19 @@ lưu tự động trong [`manifest.json`](./manifest.json). Dưới đây là t�
 
 ### Đề thi thử số 02 — `de02/`
 
-*(Sẽ bổ sung trong phần công việc tiếp theo: 03 phiên bản cho Part 1 thông báo
-Eco-Campus Fair và Part 2 phỏng vấn Dr. Hoang Minh, kèm file góp.)*
+| File | Nội dung | Thời lượng |
+|---|---|---|
+| `DE02-P1-eco-campus-fair-announcement_clean.mp3` | Mai thông báo hội chợ Eco-Campus (186 từ) | ~67 giây |
+| `DE02-P1-eco-campus-fair-announcement_slow.mp3` | Bản chậm | ~77 giây |
+| `DE02-P1-eco-campus-fair-announcement_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 23 |
+| `DE02-P2-family-mealtime-interview_clean.mp3` | Phỏng vấn Dr. Hoang Minh — bữa cơm gia đình (187 từ) | ~68 giây |
+| `DE02-P2-family-mealtime-interview_slow.mp3` | Bản chậm | ~81 giây |
+| `DE02-P2-family-mealtime-interview_exam.mp3` | Bản chuẩn phòng thi (nghe 2 lần) | ~3 phút 28 |
+| `DE02-listening-full_exam.mp3` | Góp trọn Part 1 + Part 2 mô phỏng đề thi | ~6 phút 58 |
+
+> Tổng cộng **14 file MP3** cho cả 02 đề (04 bài nghe × 03 phiên bản + 02 file
+> góp), khớp 100% 04 tapescripts trong PDF; mọi thông số kỹ thuật lưu trong
+> [`manifest.json`](./manifest.json).
 
 ## 4. Tái tạo hoàn toàn offline
 

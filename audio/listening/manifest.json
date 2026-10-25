@@ -88,6 +88,95 @@
         "en_US-lessac-medium",
         "en_US-ryan-medium"
       ]
+    },
+    {
+      "id": "DE02-P1",
+      "variant": "clean",
+      "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_clean.mp3",
+      "duration_seconds": 66.76,
+      "size_bytes": 802382,
+      "sha256": "f0135c3915e49642fc22fb7f95e1a7ecf7749d038838f4ee94fb2c40b0905f7f",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium"
+      ]
+    },
+    {
+      "id": "DE02-P1",
+      "variant": "exam",
+      "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_exam.mp3",
+      "duration_seconds": 202.92,
+      "size_bytes": 2436196,
+      "sha256": "ae22030979fba900ff301c9ba48e3c9eb6df9799b2acf6a3b2df3d95dd6ca1bd",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium"
+      ]
+    },
+    {
+      "id": "DE02-P1",
+      "variant": "slow",
+      "file": "audio/listening/de02/DE02-P1-eco-campus-fair-announcement_slow.mp3",
+      "duration_seconds": 77.11,
+      "size_bytes": 926517,
+      "sha256": "b3618490e251ed578e73047df1aecde195de69b8f9c644c4af8f8473cb011dcc",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_US-hfc_female-medium"
+      ]
+    },
+    {
+      "id": "DE02-P2",
+      "variant": "clean",
+      "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_clean.mp3",
+      "duration_seconds": 68.17,
+      "size_bytes": 819343,
+      "sha256": "87870299670b9f2d2f915332cedfd3854609bd745d743a4586ca30ebccc5e1ec",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_GB-jenny_dioco-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE02-P2",
+      "variant": "exam",
+      "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_exam.mp3",
+      "duration_seconds": 207.5,
+      "size_bytes": 2491399,
+      "sha256": "087cf6dfb678f41c3cbab140da896ce20a0ff0a26d9a78a9fd4f584678f57a70",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_GB-jenny_dioco-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE02-P2",
+      "variant": "slow",
+      "file": "audio/listening/de02/DE02-P2-family-mealtime-interview_slow.mp3",
+      "duration_seconds": 81.05,
+      "size_bytes": 973884,
+      "sha256": "4ac11d97f04e32e7c1574a8e9dde3909b7a212c3c822672de28ebe293d790a12",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_GB-jenny_dioco-medium",
+        "en_US-ryan-medium"
+      ]
+    },
+    {
+      "id": "DE02-FULL",
+      "variant": "exam",
+      "file": "audio/listening/de02/DE02-listening-full_exam.mp3",
+      "duration_seconds": 418.47,
+      "size_bytes": 5022794,
+      "sha256": "9e27e25afab77fe75efcd9f314a640d9bf48dee097150f0655eba8076cc2931f",
+      "voices": [
+        "en_GB-alan-medium",
+        "en_GB-jenny_dioco-medium",
+        "en_US-hfc_female-medium",
+        "en_US-ryan-medium"
+      ]
     }
   ]
 }
