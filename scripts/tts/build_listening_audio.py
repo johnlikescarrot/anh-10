@@ -355,7 +355,7 @@ def write_playlists() -> None:
     for exam in exams:
         for mp3 in sorted((OUT_BASE / exam).glob("*.mp3")):
             rel = f"../{exam}/{mp3.name}"
-            if mp3.name.endswith("_full_exam.mp3"):
+            if mp3.name.endswith("-listening-full_exam.mp3"):
                 full.append(rel)
             elif mp3.name.endswith("_clean.mp3"):
                 clean.append(rel)

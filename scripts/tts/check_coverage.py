@@ -81,11 +81,25 @@ def main() -> int:
         else:
             print(f"\n[OK] full exam {exam_no}: {rec['file']} ({rec['duration_seconds']}s)")
 
-    # 4) Playlist
-    for pl in ("01-exam-simulation.m3u", "02-natural-speed-practice.m3u",
-               "03-slow-and-dictation.m3u"):
-        if not (ROOT / "audio" / "listening" / "playlists" / pl).exists():
+    # 4) Playlist: ton tai, co duong dan va moi duong dan phan giai duoc
+    pl_dir = ROOT / "audio" / "listening" / "playlists"
+    expected = {
+        "01-exam-simulation.m3u": 2,
+        "02-natural-speed-practice.m3u": 4,
+        "03-slow-and-dictation.m3u": 8,
+    }
+    for pl, count in expected.items():
+        path = pl_dir / pl
+        if not path.exists():
             failures.append(f"Thieu playlist {pl}")
+            continue
+        entries = [ln.strip() for ln in path.read_text("utf-8").splitlines()
+                   if ln.strip() and not ln.startswith("#")]
+        if len(entries) != count:
+            failures.append(f"{pl}: can {count} muc, thay {len(entries)}")
+        for entry in entries:
+            if not (path.parent / entry).resolve().exists():
+                failures.append(f"{pl}: duong dan hong {entry}")
 
     print("\n" + "=" * 60)
     if failures:
