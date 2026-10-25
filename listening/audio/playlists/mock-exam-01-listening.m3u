@@ -1,0 +1,6 @@
+#EXTM3U
+#PLAYLIST:Mock exam 01 - full Listening section
+#EXTINF:-1,Part 1 - exam mode
+../exam/exam-01-part-01-exam.mp3
+#EXTINF:-1,Part 2 - exam mode
+../exam/exam-01-part-02-exam.mp3

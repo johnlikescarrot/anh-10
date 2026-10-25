@@ -1,0 +1,2898 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-25T07:56:14.175360+00:00",
+  "roles": {
+    "adult_female": {
+      "language": "en",
+      "gender": "feminine",
+      "use_case": "narration",
+      "characters": "Mrs. Lan; Youth Spotlight radio presenter"
+    },
+    "teen_female": {
+      "language": "en",
+      "gender": "feminine",
+      "use_case": "conversational",
+      "characters": "An; Mai (Go Green Youth Club leader)"
+    },
+    "host_male": {
+      "language": "en",
+      "gender": "masculine",
+      "use_case": "narration",
+      "characters": "exam announcer; Family Matters host; question reader"
+    },
+    "guest_male": {
+      "language": "en",
+      "gender": "masculine",
+      "use_case": "educational",
+      "characters": "Dr. Hoang Minh"
+    },
+    "vi_guide": {
+      "language": "vi",
+      "gender": "feminine",
+      "use_case": "educational",
+      "characters": "Vietnamese strategy narrator and answer reviewer"
+    }
+  },
+  "clips_directory": "listening/clips",
+  "clips": [
+    {
+      "id": "common/second-listening",
+      "role": "host_male",
+      "language": "en",
+      "text": "Second listening.",
+      "chars": 17,
+      "source": "Derived from the PDF's two-play exam convention"
+    },
+    {
+      "id": "common/strategy",
+      "role": "vi_guide",
+      "language": "vi",
+      "text": "Chiến thuật nghe theo đề cương, trang mười ba. Quy tắc diễn đạt lại: đáp án đúng hiếm khi lặp nguyên văn từ trong băng. Hãy ghép cặp từ đồng nghĩa: split chores equally với share housework fairly; cut down on với reduce; debut album với first album. Bẫy True False kinh điển: cảnh giác cao độ với các từ tuyệt đối all, every, never, only, nobody, completely. Đề thường sửa thông tin ở câu cuối: At first we planned to meet at seven p.m., but actually we moved it to seven thirty. Trong ba mươi giây trước khi nghe, gạch chân từ khóa: tên riêng, con số, thời gian, động từ chính, từ phủ định và lượng từ. Nghe lần một để bắt ý chính và thông tin chi tiết; nghe lần hai để kiểm tra lại năm câu. Tuyệt đối không bỏ trống đáp án.",
+      "chars": 725,
+      "source": "PDF p.13, Phần II.C.1"
+    },
+    {
+      "id": "common/orientation",
+      "role": "vi_guide",
+      "language": "vi",
+      "text": "Chào mừng bạn đến với bộ sưu tập luyện nghe tiếng Anh lớp mười Global Success, học kỳ một, năm học hai nghìn không trăm hai mươi sáu đến hai nghìn không trăm hai mươi bảy. Bộ sưu tập bao trọn bốn bài nghe chính thức của hai đề thi thử: mỗi đề có năm câu True hoặc False và năm câu trắc nghiệm, với bốn băng transcripts từ một trăm tám mươi đến hai trăm từ. Mỗi bài có năm phiên bản âm thanh. Phiên bản exam phát băng hai lượt kèm thời gian làm bài như phòng thi. Phiên bản clean chỉ phát một lượt, dùng để nghe chép chính tả và nhại lại. Phiên bản guided đọc câu hỏi, phát băng, giải thích đáp án bằng tiếng Việt rồi phát lại băng. Hai phiên bản questions và answers giúp bạn ôn riêng phần câu hỏi và phần đáp án. Ngoài ra còn có tệp chiến thuật và hai bài thi nghe ghép trọn vẹn. Lộ trình khuyên dùng: nghe exam trước, tự chấm điểm, nghe guided để sửa lỗi, cuối cùng nghe clean và nhại lại từng câu để cải thiện phát âm.",
+      "chars": 921,
+      "source": "Collection guide"
+    },
+    {
+      "id": "intro/exam-01-part-01",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 1, Listening, Part 1. True/False. Listen to a conversation between An and Missus Lan about sharing housework in An's family. Decide whether the following statements are True (A) or False (B). You will hear the recording twice. First listening.",
+      "chars": 253,
+      "source": "PDF p.24 instruction"
+    },
+    {
+      "id": "questions/exam-01-part-01",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 1, listening part 1. Read the five questions and underline key words. This passage is about Sharing housework in An's family. Question 1. Both of An's parents work full-time, so all family members share the household chores. Options: A, True; B, False. Question 2. An's father is only responsible for doing the heavy lifting at weekends. Options: A, True; B, False. Question 3. An puts out the rubbish and waters the balcony plants every afternoon. Options: A, True; B, False. Question 4. An's younger brother never helps with housework because he is only nine years old. Options: A, True; B, False. Question 5. An feels that sharing chores brings her family closer together rather than making her tired. Options: A, True; B, False. Key words: full-time, divide household chores equally, overloaded, heavy lifting, grocery shopping, laundry. Now listen.",
+      "chars": 863,
+      "source": "PDF p.24 questions"
+    },
+    {
+      "id": "answers/exam-01-part-01",
+      "role": "vi_guide",
+      "language": "vi",
+      "text": "Đáp án và giải thích Chia sẻ việc nhà trong gia đình An, đề 1, phần 1. Câu 1: đáp án A, bố mẹ làm full-time, cả nhà chia việc. Câu 2: đáp án B, bố không chỉ mang vác nặng cuối tuần mà còn nấu bữa tối từ thứ Hai đến thứ Sáu. Câu 3: đáp án A, An tưới cây ban công và đổ rác mỗi chiều. Câu 4: đáp án B, em trai 9 tuổi vẫn cho mèo ăn, gấp quần áo và quét phòng khách. Câu 5: đáp án A, An thấy gia đình gắn kết hơn chứ không mệt. Mẹo nhớ: only, never, full-time, AND, nine-year-old. Hãy nghe lại toàn bộ bài một lần nữa.",
+      "chars": 515,
+      "source": "PDF p.32 answer explanations"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-01",
+      "role": "adult_female",
+      "language": "en",
+      "text": "Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?",
+      "chars": 150,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-02",
+      "role": "teen_female",
+      "language": "en",
+      "text": "Good afternoon, Missus Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.",
+      "chars": 210,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-03",
+      "role": "adult_female",
+      "language": "en",
+      "text": "That sounds wonderful! What about your mother and you?",
+      "chars": 54,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-04",
+      "role": "teen_female",
+      "language": "en",
+      "text": "My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.",
+      "chars": 207,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-05",
+      "role": "adult_female",
+      "language": "en",
+      "text": "Does your nine-year-old brother help out too, or is he too young?",
+      "chars": 65,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-06",
+      "role": "teen_female",
+      "language": "en",
+      "text": "Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.",
+      "chars": 113,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-07",
+      "role": "adult_female",
+      "language": "en",
+      "text": "Aren't you tired after studying all day?",
+      "chars": 40,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-01/seg-08",
+      "role": "teen_female",
+      "language": "en",
+      "text": "Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+      "chars": 129,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "intro/exam-01-part-02",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 1, Listening, Part 2. MCQs. Listen to a radio talk about Minh Khoa, a young contestant in a national music show. Choose the best answer A, B, C, or D. You will hear the recording twice. First listening.",
+      "chars": 212,
+      "source": "PDF p.24 instruction"
+    },
+    {
+      "id": "questions/exam-01-part-02",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 1, listening part 2. Read the five questions and underline key words. This passage is about Minh Khoa on Vietnam Melody Star. Question 6. At what age did Minh Khoa start learning to play the acoustic guitar? Options: A, At the age of seven; B, At the age of ten; C, At the age of twelve; D, At the age of fifteen. Question 7. Who taught Minh Khoa his first traditional folk melodies? Options: A, His school music teacher; B, A famous pop judge; C, His grandfather; D, His older sister. Question 8. In the quarter-final round, Minh Khoa impressed the audience by combining modern pop with what. Options: A, opera singing; B, the moon-shaped lute; C, electronic drums; D, piano solos. Question 9. Why was Minh Khoa worried two days before the semi-final night? Options: A, He forgot the lyrics of his song.; B, His guitar string broke on stage.; C, He caught a mild cold and sore throat.; D, His parents could not watch the show.. Question 10. What does Minh Khoa plan to do with his prize money if he wins the competition? Options: A, Buy an expensive electric car; B, Record an album in London; C, Donate instruments to rural school clubs; D, Open a private music café. Key words: finalist, acoustic guitar, traditional folk tunes, quarter-final, moon-shaped lute, two million views. Now listen.",
+      "chars": 1305,
+      "source": "PDF p.24 questions"
+    },
+    {
+      "id": "answers/exam-01-part-02",
+      "role": "vi_guide",
+      "language": "vi",
+      "text": "Đáp án và giải thích Minh Khoa và cuộc thi Vietnam Melody Star, đề 1, phần 2. Câu 6: đáp án B, at the age of ten. Câu 7: đáp án C, his grandfather. Câu 8: đáp án B, the moon-shaped lute. Câu 9: đáp án C, caught a mild cold and sore throat. Câu 10: đáp án C, donate new guitars and flutes to rural high school music clubs. Mẹo nhớ: at the age of ten, not a professional coach, two days before, if he wins, this Sunday. Hãy nghe lại toàn bộ bài một lần nữa.",
+      "chars": 455,
+      "source": "PDF p.32 answer explanations"
+    },
+    {
+      "id": "transcript/exam-01-part-02/seg-01",
+      "role": "adult_female",
+      "language": "en",
+      "text": "Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.",
+      "chars": 408,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-02/seg-02",
+      "role": "adult_female",
+      "language": "en",
+      "text": "During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.",
+      "chars": 443,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "transcript/exam-01-part-02/seg-03",
+      "role": "adult_female",
+      "language": "en",
+      "text": "In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+      "chars": 227,
+      "source": "PDF p.32 tapescript"
+    },
+    {
+      "id": "intro/exam-02-part-01",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 2, Listening, Part 1. True/False. Listen to an announcement by Mai, leader of the Go Green Youth Club, about an upcoming school event. Decide whether the statements are True (A) or False (B). You will hear the recording twice. First listening.",
+      "chars": 253,
+      "source": "PDF p.27 instruction"
+    },
+    {
+      "id": "questions/exam-02-part-01",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 2, listening part 1. Read the five questions and underline key words. This passage is about The Eco-Campus Fair announcement. Question 1. The Eco-Campus Fair will take place in the main schoolyard this Saturday morning. Options: A, True; B, False. Question 2. Students need to buy entrance tickets for 20,000 VND to join the workshops. Options: A, True; B, False. Question 3. Visitors can bring used plastic bottles to exchange for small notebooks or tree saplings. Options: A, True; B, False. Question 4. Grade ten C is going to perform a short play about ocean pollution at 10:30 A M Options: A, True; B, False. Question 5. The main goal of the fair is to encourage students to practice green habits every day. Options: A, True; B, False. Key words: announcement, annual Eco-Campus Fair, main schoolyard, admission, display booth, hands-on workshop. Now listen.",
+      "chars": 873,
+      "source": "PDF p.27 questions"
+    },
+    {
+      "id": "answers/exam-02-part-01",
+      "role": "vi_guide",
+      "language": "vi",
+      "text": "Đáp án và giải thích Thông báo Hội chợ Eco-Campus, đề 2, phần 1. Câu 1: đáp án A, tổ chức ở sân trường chính sáng thứ Bảy. Câu 2: đáp án B, vào cửa hoàn toàn miễn phí completely free, không tốn 20.000đ. Câu 3: đáp án A, đổi vỏ chai nhựa lấy sổ tái chế hoặc cây non. Câu 4: đáp án B, vở kịch diễn lúc 9:30 A M, không phải 10:30 A M , bẫy giờ kinh điển. Câu 5: đáp án A, khuyến khích biến hành động xanh thành thói quen hằng ngày. Mẹo nhớ: completely free, ten clean used bottles, 9:30 a.m., not 10:30, 20,000 VND, daily habits. Hãy nghe lại toàn bộ bài một lần nữa.",
+      "chars": 564,
+      "source": "PDF p.33 answer explanations"
+    },
+    {
+      "id": "transcript/exam-02-part-01/seg-01",
+      "role": "teen_female",
+      "language": "en",
+      "text": "Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 A M to 11:30 A M, our annual Eco-Campus Fair is going to take place right in the main schoolyard.",
+      "chars": 261,
+      "source": "PDF p.33 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-01/seg-02",
+      "role": "teen_female",
+      "language": "en",
+      "text": "Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.",
+      "chars": 390,
+      "source": "PDF p.33 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-01/seg-03",
+      "role": "teen_female",
+      "language": "en",
+      "text": "At 9:30 A M, not 10:30, talented students from Grade ten C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+      "chars": 418,
+      "source": "PDF p.33 tapescript"
+    },
+    {
+      "id": "intro/exam-02-part-02",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 2, Listening, Part 2. MCQs. Listen to an interview with Dr. Hoang Minh about family mealtime routines. Choose the best answer A, B, C, or D. You will hear the recording twice. First listening.",
+      "chars": 202,
+      "source": "PDF p.27 instruction"
+    },
+    {
+      "id": "questions/exam-02-part-02",
+      "role": "host_male",
+      "language": "en",
+      "text": "Mock exam 2, listening part 2. Read the five questions and underline key words. This passage is about Family mealtime routines with Dr. Hoang Minh. Question 6. According to Doctor Minh's survey, how many evenings a week do busy city families eat dinner together on average? Options: A, One evening; B, Four evenings; C, Six evenings; D, Every evening. Question 7. What does Doctor Minh identify as the biggest distraction during modern family meals? Options: A, Loud street traffic; B, Cooking complicated dishes; C, Smartphones and television screens; D, Unexpected phone calls from teachers. Question 8. How can teenagers contribute before dinner starts? Options: A, By setting the table and washing vegetables; B, By ordering fast food every night; C, By repairing kitchen appliances; D, By doing all the heavy shopping alone. Question 9. According to Doctor Minh, teenagers who regularly eat with their parents tend to have what. Options: A, more Pocket money; B, better communication skills and lower stress; C, fewer household duties; D, longer summer holidays. Question 10. What simple rule does Doctor Minh recommend to every family? Options: A, Eat dinner in under ten minutes; B, Keep meals 'screen-free' for thirty minutes; C, Cook only Western dishes on Sundays; D, Let parents do all the washing-up. Key words: urban family meals, survey, evening classes, overtime work, notifications, complicated feasts. Now listen.",
+      "chars": 1430,
+      "source": "PDF p.27 questions"
+    },
+    {
+      "id": "answers/exam-02-part-02",
+      "role": "vi_guide",
+      "language": "vi",
+      "text": "Đáp án và giải thích Bữa cơm gia đình cùng TS. Hoàng Minh, đề 2, phần 2. Câu 6: đáp án B, four evenings a week on average. Câu 7: đáp án C, smartphones and television screens. Câu 8: đáp án A, washing vegetables and setting the table. Câu 9: đáp án B, stronger communication skills and much lower stress. Câu 10: đáp án B, keep the dinner table screen-free for thirty minutes. Mẹo nhớ: only about four evenings, Definitely smartphones, don't need to, just thirty minutes, completely screen-free. Hãy nghe lại toàn bộ bài một lần nữa.",
+      "chars": 533,
+      "source": "PDF p.34 answer explanations"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-01",
+      "role": "host_male",
+      "language": "en",
+      "text": "Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Doctor Minh, how often do city families eat dinner together nowadays?",
+      "chars": 183,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-02",
+      "role": "guest_male",
+      "language": "en",
+      "text": "Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.",
+      "chars": 146,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-03",
+      "role": "host_male",
+      "language": "en",
+      "text": "And when they do sit down together, what gets in the way of conversation?",
+      "chars": 73,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-04",
+      "role": "guest_male",
+      "language": "en",
+      "text": "Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.",
+      "chars": 169,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-05",
+      "role": "host_male",
+      "language": "en",
+      "text": "How can tenth-grade teenagers help make family meals warmer?",
+      "chars": 60,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-06",
+      "role": "guest_male",
+      "language": "en",
+      "text": "Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.",
+      "chars": 301,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-07",
+      "role": "host_male",
+      "language": "en",
+      "text": "What is one golden rule every household can start tonight?",
+      "chars": 58,
+      "source": "PDF p.34 tapescript"
+    },
+    {
+      "id": "transcript/exam-02-part-02/seg-08",
+      "role": "guest_male",
+      "language": "en",
+      "text": "Keep the dinner table completely 'screen-free' for just thirty minutes. That half hour builds lifelong family bonds!",
+      "chars": 116,
+      "source": "PDF p.34 tapescript"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "exam-01-part-01-exam",
+      "path": "exam/exam-01-part-01-exam.mp3",
+      "title": "Đề 1 · Part 1 – Exam mode (2 plays, timed pauses)",
+      "kind": "exam",
+      "exercise_ids": [
+        "exam-01-part-01"
+      ],
+      "source_pages": [
+        24,
+        32
+      ],
+      "transcript": "Mrs. Lan: Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?\nAn: Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.\nMrs. Lan: That sounds wonderful! What about your mother and you?\nAn: My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.\nMrs. Lan: Does your nine-year-old brother help out too, or is he too young?\nAn: Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.\nMrs. Lan: Aren't you tired after studying all day?\nAn: Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 1 – Exam mode (2 plays, timed pauses)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "1",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-01-clean",
+      "path": "clean/exam-01-part-01-clean.mp3",
+      "title": "Đề 1 · Part 1 – Clean recording (1 play, shadowing/dictation)",
+      "kind": "clean",
+      "exercise_ids": [
+        "exam-01-part-01"
+      ],
+      "source_pages": [
+        32
+      ],
+      "transcript": "Mrs. Lan: Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?\nAn: Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.\nMrs. Lan: That sounds wonderful! What about your mother and you?\nAn: My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.\nMrs. Lan: Does your nine-year-old brother help out too, or is he too young?\nAn: Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.\nMrs. Lan: Aren't you tired after studying all day?\nAn: Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.18,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 1.2
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 1 – Clean recording (1 play, shadowing/dictation)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "2",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-01-guided",
+      "path": "guided/exam-01-part-01-guided.mp3",
+      "title": "Đề 1 · Part 1 – Guided study (questions, 2 plays, Vietnamese answer review)",
+      "kind": "guided",
+      "exercise_ids": [
+        "exam-01-part-01"
+      ],
+      "source_pages": [
+        24,
+        32
+      ],
+      "transcript": "Mrs. Lan: Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?\nAn: Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.\nMrs. Lan: That sounds wonderful! What about your mother and you?\nAn: My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.\nMrs. Lan: Does your nine-year-old brother help out too, or is he too young?\nAn: Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.\nMrs. Lan: Aren't you tired after studying all day?\nAn: Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.5
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 1 – Guided study (questions, 2 plays, Vietnamese answer review)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "3",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-01-questions",
+      "path": "questions/exam-01-part-01-questions.mp3",
+      "title": "Đề 1 · Part 1 – Question preview (audio only)",
+      "kind": "questions",
+      "exercise_ids": [
+        "exam-01-part-01"
+      ],
+      "source_pages": [
+        24
+      ],
+      "transcript": "Q1. Both of An's parents work full-time, so all family members share the household chores. A. True | B. False\nQ2. An's father is only responsible for doing the heavy lifting at weekends. A. True | B. False\nQ3. An puts out the rubbish and waters the balcony plants every afternoon. A. True | B. False\nQ4. An's younger brother never helps with housework because he is only nine years old. A. True | B. False\nQ5. An feels that sharing chores brings her family closer together rather than making her tired. A. True | B. False",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 1 – Question preview (audio only)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "4",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-01-answers",
+      "path": "answers/exam-01-part-01-answers.mp3",
+      "title": "Đề 1 · Part 1 – Answer review (Vietnamese)",
+      "kind": "answers",
+      "exercise_ids": [
+        "exam-01-part-01"
+      ],
+      "source_pages": [
+        32
+      ],
+      "transcript": "Q1: A – bố mẹ làm full-time, cả nhà chia việc\nQ2: B – bố không chỉ mang vác nặng cuối tuần mà còn nấu bữa tối từ thứ Hai đến thứ Sáu\nQ3: A – An tưới cây ban công và đổ rác mỗi chiều\nQ4: B – em trai 9 tuổi vẫn cho mèo ăn, gấp quần áo và quét phòng khách\nQ5: A – An thấy gia đình gắn kết hơn chứ không mệt",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 1 – Answer review (Vietnamese)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "5",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-02-exam",
+      "path": "exam/exam-01-part-02-exam.mp3",
+      "title": "Đề 1 · Part 2 – Exam mode (2 plays, timed pauses)",
+      "kind": "exam",
+      "exercise_ids": [
+        "exam-01-part-02"
+      ],
+      "source_pages": [
+        24,
+        32
+      ],
+      "transcript": "Radio presenter: Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.\nRadio presenter: During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.\nRadio presenter: In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 2 – Exam mode (2 plays, timed pauses)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "6",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-02-clean",
+      "path": "clean/exam-01-part-02-clean.mp3",
+      "title": "Đề 1 · Part 2 – Clean recording (1 play, shadowing/dictation)",
+      "kind": "clean",
+      "exercise_ids": [
+        "exam-01-part-02"
+      ],
+      "source_pages": [
+        32
+      ],
+      "transcript": "Radio presenter: Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.\nRadio presenter: During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.\nRadio presenter: In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.18,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 1.2
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 2 – Clean recording (1 play, shadowing/dictation)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "7",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-02-guided",
+      "path": "guided/exam-01-part-02-guided.mp3",
+      "title": "Đề 1 · Part 2 – Guided study (questions, 2 plays, Vietnamese answer review)",
+      "kind": "guided",
+      "exercise_ids": [
+        "exam-01-part-02"
+      ],
+      "source_pages": [
+        24,
+        32
+      ],
+      "transcript": "Radio presenter: Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.\nRadio presenter: During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.\nRadio presenter: In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.5
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 2 – Guided study (questions, 2 plays, Vietnamese answer review)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "8",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-02-questions",
+      "path": "questions/exam-01-part-02-questions.mp3",
+      "title": "Đề 1 · Part 2 – Question preview (audio only)",
+      "kind": "questions",
+      "exercise_ids": [
+        "exam-01-part-02"
+      ],
+      "source_pages": [
+        24
+      ],
+      "transcript": "Q6. At what age did Minh Khoa start learning to play the acoustic guitar? A. At the age of seven | B. At the age of ten | C. At the age of twelve | D. At the age of fifteen\nQ7. Who taught Minh Khoa his first traditional folk melodies? A. His school music teacher | B. A famous pop judge | C. His grandfather | D. His older sister\nQ8. In the quarter-final round, Minh Khoa impressed the audience by combining modern pop with ______. A. opera singing | B. the moon-shaped lute | C. electronic drums | D. piano solos\nQ9. Why was Minh Khoa worried two days before the semi-final night? A. He forgot the lyrics of his song. | B. His guitar string broke on stage. | C. He caught a mild cold and sore throat. | D. His parents could not watch the show.\nQ10. What does Minh Khoa plan to do with his prize money if he wins the competition? A. Buy an expensive electric car | B. Record an album in London | C. Donate instruments to rural school clubs | D. Open a private music café",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 2 – Question preview (audio only)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "9",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-01-part-02-answers",
+      "path": "answers/exam-01-part-02-answers.mp3",
+      "title": "Đề 1 · Part 2 – Answer review (Vietnamese)",
+      "kind": "answers",
+      "exercise_ids": [
+        "exam-01-part-02"
+      ],
+      "source_pages": [
+        32
+      ],
+      "transcript": "Q6: B – at the age of ten\nQ7: C – his grandfather\nQ8: B – the moon-shaped lute\nQ9: C – caught a mild cold and sore throat\nQ10: C – donate new guitars and flutes to rural high school music clubs",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 1 · Part 2 – Answer review (Vietnamese)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "10",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-01-exam",
+      "path": "exam/exam-02-part-01-exam.mp3",
+      "title": "Đề 2 · Part 1 – Exam mode (2 plays, timed pauses)",
+      "kind": "exam",
+      "exercise_ids": [
+        "exam-02-part-01"
+      ],
+      "source_pages": [
+        27,
+        33
+      ],
+      "transcript": "Mai: Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.\nMai: Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.\nMai: At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 1 – Exam mode (2 plays, timed pauses)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "11",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-01-clean",
+      "path": "clean/exam-02-part-01-clean.mp3",
+      "title": "Đề 2 · Part 1 – Clean recording (1 play, shadowing/dictation)",
+      "kind": "clean",
+      "exercise_ids": [
+        "exam-02-part-01"
+      ],
+      "source_pages": [
+        33
+      ],
+      "transcript": "Mai: Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.\nMai: Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.\nMai: At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.18,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 1.2
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 1 – Clean recording (1 play, shadowing/dictation)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "12",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-01-guided",
+      "path": "guided/exam-02-part-01-guided.mp3",
+      "title": "Đề 2 · Part 1 – Guided study (questions, 2 plays, Vietnamese answer review)",
+      "kind": "guided",
+      "exercise_ids": [
+        "exam-02-part-01"
+      ],
+      "source_pages": [
+        27,
+        33
+      ],
+      "transcript": "Mai: Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.\nMai: Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.\nMai: At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.5
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 1 – Guided study (questions, 2 plays, Vietnamese answer review)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "13",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-01-questions",
+      "path": "questions/exam-02-part-01-questions.mp3",
+      "title": "Đề 2 · Part 1 – Question preview (audio only)",
+      "kind": "questions",
+      "exercise_ids": [
+        "exam-02-part-01"
+      ],
+      "source_pages": [
+        27
+      ],
+      "transcript": "Q1. The Eco-Campus Fair will take place in the main schoolyard this Saturday morning. A. True | B. False\nQ2. Students need to buy entrance tickets for 20,000 VND to join the workshops. A. True | B. False\nQ3. Visitors can bring used plastic bottles to exchange for small notebooks or tree saplings. A. True | B. False\nQ4. Grade 10C is going to perform a short play about ocean pollution at 10:30 a.m. A. True | B. False\nQ5. The main goal of the fair is to encourage students to practice green habits every day. A. True | B. False",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 1 – Question preview (audio only)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "14",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-01-answers",
+      "path": "answers/exam-02-part-01-answers.mp3",
+      "title": "Đề 2 · Part 1 – Answer review (Vietnamese)",
+      "kind": "answers",
+      "exercise_ids": [
+        "exam-02-part-01"
+      ],
+      "source_pages": [
+        33
+      ],
+      "transcript": "Q1: A – tổ chức ở sân trường chính sáng thứ Bảy\nQ2: B – vào cửa hoàn toàn miễn phí completely free, không tốn 20.000đ\nQ3: A – đổi vỏ chai nhựa lấy sổ tái chế hoặc cây non\nQ4: B – vở kịch diễn lúc 9:30 a.m., không phải 10:30 a.m. — bẫy giờ kinh điển\nQ5: A – khuyến khích biến hành động xanh thành thói quen hằng ngày",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 1 – Answer review (Vietnamese)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "15",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-02-exam",
+      "path": "exam/exam-02-part-02-exam.mp3",
+      "title": "Đề 2 · Part 2 – Exam mode (2 plays, timed pauses)",
+      "kind": "exam",
+      "exercise_ids": [
+        "exam-02-part-02"
+      ],
+      "source_pages": [
+        27,
+        34
+      ],
+      "transcript": "Host: Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?\nDr. Minh: Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.\nHost: And when they do sit down together, what gets in the way of conversation?\nDr. Minh: Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.\nHost: How can tenth-grade teenagers help make family meals warmer?\nDr. Minh: Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.\nHost: What is one golden rule every household can start tonight?\nDr. Minh: Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 2 – Exam mode (2 plays, timed pauses)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "16",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-02-clean",
+      "path": "clean/exam-02-part-02-clean.mp3",
+      "title": "Đề 2 · Part 2 – Clean recording (1 play, shadowing/dictation)",
+      "kind": "clean",
+      "exercise_ids": [
+        "exam-02-part-02"
+      ],
+      "source_pages": [
+        34
+      ],
+      "transcript": "Host: Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?\nDr. Minh: Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.\nHost: And when they do sit down together, what gets in the way of conversation?\nDr. Minh: Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.\nHost: How can tenth-grade teenagers help make family meals warmer?\nDr. Minh: Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.\nHost: What is one golden rule every household can start tonight?\nDr. Minh: Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.18,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 1.2
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 2 – Clean recording (1 play, shadowing/dictation)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "17",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-02-guided",
+      "path": "guided/exam-02-part-02-guided.mp3",
+      "title": "Đề 2 · Part 2 – Guided study (questions, 2 plays, Vietnamese answer review)",
+      "kind": "guided",
+      "exercise_ids": [
+        "exam-02-part-02"
+      ],
+      "source_pages": [
+        27,
+        34
+      ],
+      "transcript": "Host: Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?\nDr. Minh: Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.\nHost: And when they do sit down together, what gets in the way of conversation?\nDr. Minh: Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.\nHost: How can tenth-grade teenagers help make family meals warmer?\nDr. Minh: Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.\nHost: What is one golden rule every household can start tonight?\nDr. Minh: Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.5
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.5
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 2 – Guided study (questions, 2 plays, Vietnamese answer review)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "18",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-02-questions",
+      "path": "questions/exam-02-part-02-questions.mp3",
+      "title": "Đề 2 · Part 2 – Question preview (audio only)",
+      "kind": "questions",
+      "exercise_ids": [
+        "exam-02-part-02"
+      ],
+      "source_pages": [
+        27
+      ],
+      "transcript": "Q6. According to Dr. Minh's survey, how many evenings a week do busy city families eat dinner together on average? A. One evening | B. Four evenings | C. Six evenings | D. Every evening\nQ7. What does Dr. Minh identify as the biggest distraction during modern family meals? A. Loud street traffic | B. Cooking complicated dishes | C. Smartphones and television screens | D. Unexpected phone calls from teachers\nQ8. How can teenagers contribute before dinner starts? A. By setting the table and washing vegetables | B. By ordering fast food every night | C. By repairing kitchen appliances | D. By doing all the heavy shopping alone\nQ9. According to Dr. Minh, teenagers who regularly eat with their parents tend to have ______. A. more Pocket money | B. better communication skills and lower stress | C. fewer household duties | D. longer summer holidays\nQ10. What simple rule does Dr. Minh recommend to every family? A. Eat dinner in under ten minutes | B. Keep meals \"screen-free\" for thirty minutes | C. Cook only Western dishes on Sundays | D. Let parents do all the washing-up",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "questions/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 2 – Question preview (audio only)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "19",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "exam-02-part-02-answers",
+      "path": "answers/exam-02-part-02-answers.mp3",
+      "title": "Đề 2 · Part 2 – Answer review (Vietnamese)",
+      "kind": "answers",
+      "exercise_ids": [
+        "exam-02-part-02"
+      ],
+      "source_pages": [
+        34
+      ],
+      "transcript": "Q6: B – four evenings a week on average\nQ7: C – smartphones and television screens\nQ8: A – washing vegetables and setting the table\nQ9: B – stronger communication skills and much lower stress\nQ10: B – keep the dinner table screen-free for thirty minutes",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "answers/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Đề 2 · Part 2 – Answer review (Vietnamese)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "20",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "mock-exam-01-listening-full",
+      "path": "full/mock-exam-01-listening-full.mp3",
+      "title": "Mock exam 01 – Full listening section (Part 1 + Part 2, 2 plays each)",
+      "kind": "full",
+      "exercise_ids": [
+        "exam-01-part-01",
+        "exam-01-part-02"
+      ],
+      "source_pages": [
+        24,
+        32
+      ],
+      "transcript": "Mrs. Lan: Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?\nAn: Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.\nMrs. Lan: That sounds wonderful! What about your mother and you?\nAn: My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.\nMrs. Lan: Does your nine-year-old brother help out too, or is he too young?\nAn: Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.\nMrs. Lan: Aren't you tired after studying all day?\nAn: Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.\n\nRadio presenter: Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.\nRadio presenter: During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.\nRadio presenter: In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.5
+        },
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-01-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-01/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        },
+        {
+          "type": "silence",
+          "seconds": 3.0
+        },
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-01-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-01-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        }
+      ],
+      "tags": {
+        "title": "Mock exam 01 – Full listening section (Part 1 + Part 2, 2 plays each)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "21",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "mock-exam-02-listening-full",
+      "path": "full/mock-exam-02-listening-full.mp3",
+      "title": "Mock exam 02 – Full listening section (Part 1 + Part 2, 2 plays each)",
+      "kind": "full",
+      "exercise_ids": [
+        "exam-02-part-01",
+        "exam-02-part-02"
+      ],
+      "source_pages": [
+        27,
+        33,
+        34
+      ],
+      "transcript": "Mai: Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.\nMai: Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.\nMai: At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!\n\nHost: Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?\nDr. Minh: Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.\nHost: And when they do sit down together, what gets in the way of conversation?\nDr. Minh: Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.\nHost: How can tenth-grade teenagers help make family meals warmer?\nDr. Minh: Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.\nHost: What is one golden rule every household can start tonight?\nDr. Minh: Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.5
+        },
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-02-part-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-01/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.85
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        },
+        {
+          "type": "silence",
+          "seconds": 3.0
+        },
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "intro/exam-02-part-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 12.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "clip",
+          "id": "common/second-listening"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.7
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-01"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-02"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-03"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-04"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-05"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-06"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-07"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "clip",
+          "id": "transcript/exam-02-part-02/seg-08"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.38
+        },
+        {
+          "type": "silence",
+          "seconds": 10.0
+        },
+        {
+          "type": "tone",
+          "seconds": 0.22,
+          "frequency": 880,
+          "volume": 0.075
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        }
+      ],
+      "tags": {
+        "title": "Mock exam 02 – Full listening section (Part 1 + Part 2, 2 plays each)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "22",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    },
+    {
+      "id": "00-orientation-and-strategy",
+      "path": "strategy/00-orientation-and-strategy.mp3",
+      "title": "Orientation & official PDF listening strategy (Vietnamese)",
+      "kind": "strategy",
+      "exercise_ids": [],
+      "source_pages": [
+        3,
+        5,
+        6,
+        13
+      ],
+      "transcript": "Chào mừng bạn đến với bộ sưu tập luyện nghe tiếng Anh lớp mười Global Success, học kỳ một, năm học hai nghìn không trăm hai mươi sáu đến hai nghìn không trăm hai mươi bảy. Bộ sưu tập bao trọn bốn bài nghe chính thức của hai đề thi thử: mỗi đề có năm câu True hoặc False và năm câu trắc nghiệm, với bốn băng transcripts từ một trăm tám mươi đến hai trăm từ. Mỗi bài có năm phiên bản âm thanh. Phiên bản exam phát băng hai lượt kèm thời gian làm bài như phòng thi. Phiên bản clean chỉ phát một lượt, dùng để nghe chép chính tả và nhại lại. Phiên bản guided đọc câu hỏi, phát băng, giải thích đáp án bằng tiếng Việt rồi phát lại băng. Hai phiên bản questions và answers giúp bạn ôn riêng phần câu hỏi và phần đáp án. Ngoài ra còn có tệp chiến thuật và hai bài thi nghe ghép trọn vẹn. Lộ trình khuyên dùng: nghe exam trước, tự chấm điểm, nghe guided để sửa lỗi, cuối cùng nghe clean và nhại lại từng câu để cải thiện phát âm.\n\nChiến thuật nghe theo đề cương, trang mười ba. Quy tắc diễn đạt lại: đáp án đúng hiếm khi lặp nguyên văn từ trong băng. Hãy ghép cặp từ đồng nghĩa: split chores equally với share housework fairly; cut down on với reduce; debut album với first album. Bẫy True False kinh điển: cảnh giác cao độ với các từ tuyệt đối all, every, never, only, nobody, completely. Đề thường sửa thông tin ở câu cuối: At first we planned to meet at seven p.m., but actually we moved it to seven thirty. Trong ba mươi giây trước khi nghe, gạch chân từ khóa: tên riêng, con số, thời gian, động từ chính, từ phủ định và lượng từ. Nghe lần một để bắt ý chính và thông tin chi tiết; nghe lần hai để kiểm tra lại năm câu. Tuyệt đối không bỏ trống đáp án.",
+      "segments": [
+        {
+          "type": "silence",
+          "seconds": 0.4
+        },
+        {
+          "type": "clip",
+          "id": "common/orientation"
+        },
+        {
+          "type": "silence",
+          "seconds": 1.0
+        },
+        {
+          "type": "clip",
+          "id": "common/strategy"
+        },
+        {
+          "type": "silence",
+          "seconds": 0.8
+        }
+      ],
+      "tags": {
+        "title": "Orientation & official PDF listening strategy (Vietnamese)",
+        "album": "Global Success 10 – Midterm Listening Collection 2026–2027",
+        "artist": "Global Success 10 Listening Lab",
+        "albumartist": "Global Success 10 Listening Lab",
+        "genre": "Education / Listening Practice",
+        "year": "2026",
+        "tracknumber": "23",
+        "comment": "Source: DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf"
+      }
+    }
+  ]
+}

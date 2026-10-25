@@ -1,0 +1,3 @@
+# Intermediate TTS clips (source material for build_audio.py).
+# The finished, committed deliverables live in listening/audio/.
+clips/
