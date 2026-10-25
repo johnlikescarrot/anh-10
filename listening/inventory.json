@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-25T07:56:14.176285+00:00",
+  "source": {
+    "pdf": "DE_CUONG_ON_TAP_TIENG_ANH_10_GK1_2026_2027_GLOBAL_SUCCESS.pdf",
+    "pdf_sha256": "c1f9a0fd777157f724beeaa88875d0c1e6d9a9126c6994afeac0a3873d8471f7",
+    "pdf_pages": 35,
+    "pdf_metadata": {
+      "/Title": "Phân tích Ma trận & Đề cương Ôn tập Giữa Học kỳ 1 Tiếng Anh 10 (Global Success) – Năm học 2026–2027",
+      "/Author": "Tài liệu Học thuật Tiếng Anh 10 Global Success",
+      "/Creator": "Typst 0.15.0",
+      "/ModDate": "D:20261024072352Z",
+      "/CreationDate": "D:20261024072352Z"
+    },
+    "pdf_outline_entries": 36,
+    "pdf_media_markers": {
+      "/EmbeddedFile": 0,
+      "/Sound": 0,
+      "/MediaClip": 0,
+      "/RichMedia": 0,
+      "/Screen": 0,
+      "/Movie": 0,
+      "/JavaScript": 0
+    },
+    "pdf_annotations": {
+      "total": 26,
+      "embedded_file_annotations": 0,
+      "external_uris": []
+    },
+    "matrix_docx": "2026_2027_MA TRẬN 10_GK1.docx",
+    "matrix_docx_sha256": "4012ac5e5108a360721359e6c72276362382072662f55d1173abc8ec00ab11e3",
+    "typst_manuscript": [
+      "src/part4_mock_exams.typ",
+      "src/part5_answer_keys.typ"
+    ]
+  },
+  "matrix_spec": {
+    "parts": 2,
+    "questions": 10,
+    "points": 2.5,
+    "duration_minutes": 1.5,
+    "words_per_passage": [
+      180,
+      200
+    ],
+    "plays_in_exam_mode": 2,
+    "topics": [
+      "Family life",
+      "Humans and the environment",
+      "Music"
+    ],
+    "cognitive_levels": {
+      "direct_detail_questions": 6,
+      "inference_questions": 4
+    },
+    "source_pages": [
+      5,
+      6
+    ],
+    "docx_listening_lines": [
+      {
+        "line": 24,
+        "text": "LISTENING"
+      },
+      {
+        "line": 25,
+        "text": "Listening 1"
+      },
+      {
+        "line": 36,
+        "text": "Listening 2"
+      },
+      {
+        "line": 166,
+        "text": "LISTENING"
+      },
+      {
+        "line": 167,
+        "text": "Nghe một đoạn hội thoại/ độc thoại trong khoảng 1.5 phút  (khoảng 180 – 200 từ) để trả lời các dạng câu hỏi có liên quan đến các chủ đề đã học:"
+      },
+      {
+        "line": 173,
+        "text": "- Nghe lấy thông tin chi tiết."
+      },
+      {
+        "line": 180,
+        "text": "Nghe một đoạn hội thoại/ độc thoại khoảng 1.5 phút (khoảng 180 – 200 từ) liên quan đến các chủ đề đã học:"
+      },
+      {
+        "line": 186,
+        "text": "- Nghe lấy thông tin chi tiết"
+      }
+    ]
+  },
+  "coverage": {
+    "listening_exercises_total": 4,
+    "tapescripts_total": 4,
+    "questions_total": 20,
+    "audio_tracks_planned": 23,
+    "tts_clips_planned": 37,
+    "all_exercises_have_exam_clean_guided_tracks": true
+  },
+  "exercises": [
+    {
+      "id": "exam-01-part-01",
+      "exam": 1,
+      "part": 1,
+      "title_en": "Sharing housework in An's family",
+      "title_vi": "Chia sẻ việc nhà trong gia đình An",
+      "format": "True/False",
+      "question_pages": [
+        24
+      ],
+      "transcript_pages": [
+        32
+      ],
+      "answer_pages": [
+        32
+      ],
+      "unit": "Unit 1 – Family Life",
+      "topic": "Family life",
+      "speaker_type": "dialogue",
+      "narrator": "Mrs. Lan",
+      "instruction": "Listen to a conversation between An and Mrs. Lan about sharing housework in An's family. Decide whether the following statements are True (A) or False (B).",
+      "answers": [
+        "A",
+        "B",
+        "A",
+        "B",
+        "A"
+      ],
+      "explanations": [
+        "bố mẹ làm full-time, cả nhà chia việc",
+        "bố không chỉ mang vác nặng cuối tuần mà còn nấu bữa tối từ thứ Hai đến thứ Sáu",
+        "An tưới cây ban công và đổ rác mỗi chiều",
+        "em trai 9 tuổi vẫn cho mèo ăn, gấp quần áo và quét phòng khách",
+        "An thấy gia đình gắn kết hơn chứ không mệt"
+      ],
+      "vocabulary": [
+        "full-time",
+        "divide household chores equally",
+        "overloaded",
+        "heavy lifting",
+        "grocery shopping",
+        "laundry",
+        "put out the rubbish",
+        "clear the table",
+        "fold clothes",
+        "sweep the floor"
+      ],
+      "traps": [
+        "only",
+        "never",
+        "full-time",
+        "AND",
+        "nine-year-old",
+        "twenty minutes"
+      ],
+      "declared_words": 182,
+      "computed_words": 182,
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Both of An's parents work full-time, so all family members share the household chores.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "explanation_vi": "bố mẹ làm full-time, cả nhà chia việc",
+          "answer_text": "A. True"
+        },
+        {
+          "number": 2,
+          "stem": "An's father is only responsible for doing the heavy lifting at weekends.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "explanation_vi": "bố không chỉ mang vác nặng cuối tuần mà còn nấu bữa tối từ thứ Hai đến thứ Sáu",
+          "answer_text": "B. False"
+        },
+        {
+          "number": 3,
+          "stem": "An puts out the rubbish and waters the balcony plants every afternoon.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "explanation_vi": "An tưới cây ban công và đổ rác mỗi chiều",
+          "answer_text": "A. True"
+        },
+        {
+          "number": 4,
+          "stem": "An's younger brother never helps with housework because he is only nine years old.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "explanation_vi": "em trai 9 tuổi vẫn cho mèo ăn, gấp quần áo và quét phòng khách",
+          "answer_text": "B. False"
+        },
+        {
+          "number": 5,
+          "stem": "An feels that sharing chores brings her family closer together rather than making her tired.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "explanation_vi": "An thấy gia đình gắn kết hơn chứ không mệt",
+          "answer_text": "A. True"
+        }
+      ],
+      "segments": [
+        {
+          "speaker": "Mrs. Lan",
+          "text": "Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?\\",
+          "index": 1,
+          "display_text": "Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?",
+          "tts_text": "Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?",
+          "role": "adult_female"
+        },
+        {
+          "speaker": "An",
+          "text": "Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.\\",
+          "index": 2,
+          "display_text": "Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.",
+          "tts_text": "Good afternoon, Missus Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.",
+          "role": "teen_female"
+        },
+        {
+          "speaker": "Mrs. Lan",
+          "text": "That sounds wonderful! What about your mother and you?\\",
+          "index": 3,
+          "display_text": "That sounds wonderful! What about your mother and you?",
+          "tts_text": "That sounds wonderful! What about your mother and you?",
+          "role": "adult_female"
+        },
+        {
+          "speaker": "An",
+          "text": "My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.\\",
+          "index": 4,
+          "display_text": "My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.",
+          "tts_text": "My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.",
+          "role": "teen_female"
+        },
+        {
+          "speaker": "Mrs. Lan",
+          "text": "Does your nine-year-old brother help out too, or is he too young?\\",
+          "index": 5,
+          "display_text": "Does your nine-year-old brother help out too, or is he too young?",
+          "tts_text": "Does your nine-year-old brother help out too, or is he too young?",
+          "role": "adult_female"
+        },
+        {
+          "speaker": "An",
+          "text": "Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.\\",
+          "index": 6,
+          "display_text": "Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.",
+          "tts_text": "Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.",
+          "role": "teen_female"
+        },
+        {
+          "speaker": "Mrs. Lan",
+          "text": "Aren't you tired after studying all day?\\",
+          "index": 7,
+          "display_text": "Aren't you tired after studying all day?",
+          "tts_text": "Aren't you tired after studying all day?",
+          "role": "adult_female"
+        },
+        {
+          "speaker": "An",
+          "text": "Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+          "index": 8,
+          "display_text": "Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+          "tts_text": "Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+          "role": "teen_female"
+        }
+      ],
+      "transcript_text": "Mrs. Lan: Good afternoon, An! Both your parents work full-time at the hospital and an engineering firm. How does your family manage all the housework every day?\nAn: Good afternoon, Mrs. Lan! In my home, we divide household chores equally so nobody feels overloaded. My dad is a great cook, so he prepares dinner from Monday to Friday AND does the heavy lifting at weekends.\nMrs. Lan: That sounds wonderful! What about your mother and you?\nAn: My mother does the grocery shopping in the morning and handles the laundry. Every afternoon after school, I water the plants on our balcony and put out the rubbish. After dinner, I also help clear the table.\nMrs. Lan: Does your nine-year-old brother help out too, or is he too young?\nAn: Oh, he definitely helps! He feeds our cat, folds his own clothes, and sweeps the living room floor every evening.\nMrs. Lan: Aren't you tired after studying all day?\nAn: Not at all. Spending twenty minutes doing chores together gives us time to chat and laugh, so it really brings our family closer.",
+      "pdf_cross_check": {
+        "transcript_segments_matched": 8,
+        "transcript_segments_total": 8,
+        "question_stems_matched": 5,
+        "question_stems_total": 5
+      }
+    },
+    {
+      "id": "exam-01-part-02",
+      "exam": 1,
+      "part": 2,
+      "title_en": "Minh Khoa on Vietnam Melody Star",
+      "title_vi": "Minh Khoa và cuộc thi Vietnam Melody Star",
+      "format": "MCQs",
+      "question_pages": [
+        24
+      ],
+      "transcript_pages": [
+        32
+      ],
+      "answer_pages": [
+        32
+      ],
+      "unit": "Unit 3 – Music",
+      "topic": "Music",
+      "speaker_type": "monologue",
+      "narrator": "Radio presenter",
+      "instruction": "Listen to a radio talk about Minh Khoa, a young contestant in a national music show. Choose the best answer A, B, C, or D.",
+      "answers": [
+        "B",
+        "C",
+        "B",
+        "C",
+        "C"
+      ],
+      "explanations": [
+        "at the age of ten",
+        "his grandfather",
+        "the moon-shaped lute",
+        "caught a mild cold and sore throat",
+        "donate new guitars and flutes to rural high school music clubs"
+      ],
+      "vocabulary": [
+        "finalist",
+        "acoustic guitar",
+        "traditional folk tunes",
+        "quarter-final",
+        "moon-shaped lute",
+        "two million views",
+        "sore throat",
+        "ginger tea",
+        "cash prize",
+        "rural high school music clubs"
+      ],
+      "traps": [
+        "at the age of ten",
+        "not a professional coach",
+        "two days before",
+        "if he wins",
+        "this Sunday"
+      ],
+      "declared_words": 181,
+      "computed_words": 181,
+      "questions": [
+        {
+          "number": 6,
+          "stem": "At what age did Minh Khoa start learning to play the acoustic guitar?",
+          "options": [
+            "A. At the age of seven",
+            "B. At the age of ten",
+            "C. At the age of twelve",
+            "D. At the age of fifteen"
+          ],
+          "answer": "B",
+          "explanation_vi": "at the age of ten",
+          "answer_text": "B. At the age of ten"
+        },
+        {
+          "number": 7,
+          "stem": "Who taught Minh Khoa his first traditional folk melodies?",
+          "options": [
+            "A. His school music teacher",
+            "B. A famous pop judge",
+            "C. His grandfather",
+            "D. His older sister"
+          ],
+          "answer": "C",
+          "explanation_vi": "his grandfather",
+          "answer_text": "C. His grandfather"
+        },
+        {
+          "number": 8,
+          "stem": "In the quarter-final round, Minh Khoa impressed the audience by combining modern pop with ______.",
+          "options": [
+            "A. opera singing",
+            "B. the moon-shaped lute",
+            "C. electronic drums",
+            "D. piano solos"
+          ],
+          "answer": "B",
+          "explanation_vi": "the moon-shaped lute",
+          "answer_text": "B. the moon-shaped lute"
+        },
+        {
+          "number": 9,
+          "stem": "Why was Minh Khoa worried two days before the semi-final night?",
+          "options": [
+            "A. He forgot the lyrics of his song.",
+            "B. His guitar string broke on stage.",
+            "C. He caught a mild cold and sore throat.",
+            "D. His parents could not watch the show."
+          ],
+          "answer": "C",
+          "explanation_vi": "caught a mild cold and sore throat",
+          "answer_text": "C. He caught a mild cold and sore throat."
+        },
+        {
+          "number": 10,
+          "stem": "What does Minh Khoa plan to do with his prize money if he wins the competition?",
+          "options": [
+            "A. Buy an expensive electric car",
+            "B. Record an album in London",
+            "C. Donate instruments to rural school clubs",
+            "D. Open a private music café"
+          ],
+          "answer": "C",
+          "explanation_vi": "donate new guitars and flutes to rural high school music clubs",
+          "answer_text": "C. Donate instruments to rural school clubs"
+        }
+      ],
+      "segments": [
+        {
+          "speaker": "Radio presenter",
+          "text": "Welcome back to *Youth Spotlight*! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on *Vietnam Melody Star*. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.",
+          "index": 1,
+          "display_text": "Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.",
+          "tts_text": "Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.",
+          "role": "adult_female"
+        },
+        {
+          "speaker": "Radio presenter",
+          "text": "During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.",
+          "index": 2,
+          "display_text": "During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.",
+          "tts_text": "During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.",
+          "role": "adult_female"
+        },
+        {
+          "speaker": "Radio presenter",
+          "text": "In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+          "index": 3,
+          "display_text": "In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+          "tts_text": "In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+          "role": "adult_female"
+        }
+      ],
+      "transcript_text": "Radio presenter: Welcome back to Youth Spotlight! Tonight, we are talking about Minh Khoa, the sixteen-year-old finalist who has captured millions of hearts on Vietnam Melody Star. Born in a peaceful town in Nghe An, Khoa first picked up an acoustic guitar at the age of ten. Interestingly, his first music teacher was not a professional coach, but his grandfather, who taught him traditional folk tunes every summer evening.\nRadio presenter: During last month's quarter-final, Khoa surprised all three judges by blending a modern pop ballad with the sound of the moon-shaped lute. Video clips of that live performance quickly reached two million views online. However, his journey has not been easy. Just two days before the semi-final night, Khoa caught a mild cold and suffered from a sore throat. Thanks to warm ginger tea and careful rest, he recovered in time to sing brilliantly.\nRadio presenter: In a recent interview, Khoa shared a heartwarming plan: if he wins the top cash prize this Sunday, he will donate new guitars and flutes to rural high school music clubs so country teenagers can pursue their musical dreams too.",
+      "pdf_cross_check": {
+        "transcript_segments_matched": 3,
+        "transcript_segments_total": 3,
+        "question_stems_matched": 5,
+        "question_stems_total": 5
+      }
+    },
+    {
+      "id": "exam-02-part-01",
+      "exam": 2,
+      "part": 1,
+      "title_en": "The Eco-Campus Fair announcement",
+      "title_vi": "Thông báo Hội chợ Eco-Campus",
+      "format": "True/False",
+      "question_pages": [
+        27
+      ],
+      "transcript_pages": [
+        33
+      ],
+      "answer_pages": [
+        33
+      ],
+      "unit": "Unit 2 – Humans and the Environment",
+      "topic": "Humans and the environment",
+      "speaker_type": "monologue",
+      "narrator": "Mai",
+      "instruction": "Listen to an announcement by Mai, leader of the Go Green Youth Club, about an upcoming school event. Decide whether the statements are True (A) or False (B).",
+      "answers": [
+        "A",
+        "B",
+        "A",
+        "B",
+        "A"
+      ],
+      "explanations": [
+        "tổ chức ở sân trường chính sáng thứ Bảy",
+        "vào cửa hoàn toàn miễn phí completely free, không tốn 20.000đ",
+        "đổi vỏ chai nhựa lấy sổ tái chế hoặc cây non",
+        "vở kịch diễn lúc 9:30 a.m., không phải 10:30 a.m. — bẫy giờ kinh điển",
+        "khuyến khích biến hành động xanh thành thói quen hằng ngày"
+      ],
+      "vocabulary": [
+        "announcement",
+        "annual Eco-Campus Fair",
+        "main schoolyard",
+        "admission",
+        "display booth",
+        "hands-on workshop",
+        "aluminum cans",
+        "recycled paper notebook",
+        "young green sapling",
+        "ocean plastic pollution",
+        "acoustic music mini-show"
+      ],
+      "traps": [
+        "completely free",
+        "ten clean used bottles",
+        "9:30 a.m., not 10:30",
+        "20,000 VND",
+        "daily habits"
+      ],
+      "declared_words": 186,
+      "computed_words": 186,
+      "questions": [
+        {
+          "number": 1,
+          "stem": "The Eco-Campus Fair will take place in the main schoolyard this Saturday morning.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "explanation_vi": "tổ chức ở sân trường chính sáng thứ Bảy",
+          "answer_text": "A. True"
+        },
+        {
+          "number": 2,
+          "stem": "Students need to buy entrance tickets for 20,000 VND to join the workshops.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "explanation_vi": "vào cửa hoàn toàn miễn phí completely free, không tốn 20.000đ",
+          "answer_text": "B. False"
+        },
+        {
+          "number": 3,
+          "stem": "Visitors can bring used plastic bottles to exchange for small notebooks or tree saplings.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "explanation_vi": "đổi vỏ chai nhựa lấy sổ tái chế hoặc cây non",
+          "answer_text": "A. True"
+        },
+        {
+          "number": 4,
+          "stem": "Grade 10C is going to perform a short play about ocean pollution at 10:30 a.m.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "B",
+          "explanation_vi": "vở kịch diễn lúc 9:30 a.m., không phải 10:30 a.m. — bẫy giờ kinh điển",
+          "answer_text": "B. False"
+        },
+        {
+          "number": 5,
+          "stem": "The main goal of the fair is to encourage students to practice green habits every day.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "answer": "A",
+          "explanation_vi": "khuyến khích biến hành động xanh thành thói quen hằng ngày",
+          "answer_text": "A. True"
+        }
+      ],
+      "segments": [
+        {
+          "speaker": "Mai",
+          "text": "Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.",
+          "index": 1,
+          "display_text": "Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.",
+          "tts_text": "Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 A M to 11:30 A M, our annual Eco-Campus Fair is going to take place right in the main schoolyard.",
+          "role": "teen_female"
+        },
+        {
+          "speaker": "Mai",
+          "text": "Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers—you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.",
+          "index": 2,
+          "display_text": "Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.",
+          "tts_text": "Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.",
+          "role": "teen_female"
+        },
+        {
+          "speaker": "Mai",
+          "text": "At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles—see you all this Saturday!",
+          "index": 3,
+          "display_text": "At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+          "tts_text": "At 9:30 A M, not 10:30, talented students from Grade ten C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+          "role": "teen_female"
+        }
+      ],
+      "transcript_text": "Mai: Good morning, everyone! I'm Mai, leader of our school's Go Green Youth Club, and I have an exciting announcement for this weekend. This Saturday morning, from 7:30 a.m. to 11:30 a.m., our annual Eco-Campus Fair is going to take place right in the main schoolyard.\nMai: Best of all, admission to every display booth and hands-on workshop is completely free for all students, parents, and teachers, you don't need to buy any entrance tickets at all! Remember to check your home carefully before coming: if you bring ten clean used plastic bottles or aluminum cans to our Green Booth, you can exchange them for a recycled paper notebook or a young green sapling.\nMai: At 9:30 a.m., not 10:30, talented students from Grade 10C will perform a funny fifteen-minute play about protecting sea turtles from ocean plastic pollution, followed by an acoustic music mini-show. Through this meaningful fair, our club hopes to inspire everyone to turn small green actions into daily habits both at school and at home. Bring your close friends and reusable water bottles, see you all this Saturday!",
+      "pdf_cross_check": {
+        "transcript_segments_matched": 3,
+        "transcript_segments_total": 3,
+        "question_stems_matched": 5,
+        "question_stems_total": 5
+      }
+    },
+    {
+      "id": "exam-02-part-02",
+      "exam": 2,
+      "part": 2,
+      "title_en": "Family mealtime routines with Dr. Hoang Minh",
+      "title_vi": "Bữa cơm gia đình cùng TS. Hoàng Minh",
+      "format": "MCQs",
+      "question_pages": [
+        27
+      ],
+      "transcript_pages": [
+        34
+      ],
+      "answer_pages": [
+        34
+      ],
+      "unit": "Unit 1 – Family Life",
+      "topic": "Family life",
+      "speaker_type": "dialogue",
+      "narrator": "Host",
+      "instruction": "Listen to an interview with Dr. Hoang Minh about family mealtime routines. Choose the best answer A, B, C, or D.",
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "B",
+        "B"
+      ],
+      "explanations": [
+        "four evenings a week on average",
+        "smartphones and television screens",
+        "washing vegetables and setting the table",
+        "stronger communication skills and much lower stress",
+        "keep the dinner table screen-free for thirty minutes"
+      ],
+      "vocabulary": [
+        "urban family meals",
+        "survey",
+        "evening classes",
+        "overtime work",
+        "notifications",
+        "complicated feasts",
+        "gratitude",
+        "communication skills",
+        "school stress",
+        "screen-free",
+        "lifelong family bonds"
+      ],
+      "traps": [
+        "only about four evenings",
+        "Definitely smartphones",
+        "don't need to",
+        "just thirty minutes",
+        "completely screen-free"
+      ],
+      "declared_words": 187,
+      "computed_words": 187,
+      "questions": [
+        {
+          "number": 6,
+          "stem": "According to Dr. Minh's survey, how many evenings a week do busy city families eat dinner together on average?",
+          "options": [
+            "A. One evening",
+            "B. Four evenings",
+            "C. Six evenings",
+            "D. Every evening"
+          ],
+          "answer": "B",
+          "explanation_vi": "four evenings a week on average",
+          "answer_text": "B. Four evenings"
+        },
+        {
+          "number": 7,
+          "stem": "What does Dr. Minh identify as the biggest distraction during modern family meals?",
+          "options": [
+            "A. Loud street traffic",
+            "B. Cooking complicated dishes",
+            "C. Smartphones and television screens",
+            "D. Unexpected phone calls from teachers"
+          ],
+          "answer": "C",
+          "explanation_vi": "smartphones and television screens",
+          "answer_text": "C. Smartphones and television screens"
+        },
+        {
+          "number": 8,
+          "stem": "How can teenagers contribute before dinner starts?",
+          "options": [
+            "A. By setting the table and washing vegetables",
+            "B. By ordering fast food every night",
+            "C. By repairing kitchen appliances",
+            "D. By doing all the heavy shopping alone"
+          ],
+          "answer": "A",
+          "explanation_vi": "washing vegetables and setting the table",
+          "answer_text": "A. By setting the table and washing vegetables"
+        },
+        {
+          "number": 9,
+          "stem": "According to Dr. Minh, teenagers who regularly eat with their parents tend to have ______.",
+          "options": [
+            "A. more Pocket money",
+            "B. better communication skills and lower stress",
+            "C. fewer household duties",
+            "D. longer summer holidays"
+          ],
+          "answer": "B",
+          "explanation_vi": "stronger communication skills and much lower stress",
+          "answer_text": "B. better communication skills and lower stress"
+        },
+        {
+          "number": 10,
+          "stem": "What simple rule does Dr. Minh recommend to every family?",
+          "options": [
+            "A. Eat dinner in under ten minutes",
+            "B. Keep meals \"screen-free\" for thirty minutes",
+            "C. Cook only Western dishes on Sundays",
+            "D. Let parents do all the washing-up"
+          ],
+          "answer": "B",
+          "explanation_vi": "keep the dinner table screen-free for thirty minutes",
+          "answer_text": "B. Keep meals \"screen-free\" for thirty minutes"
+        }
+      ],
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Welcome to *Family Matters*! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?\\",
+          "index": 1,
+          "display_text": "Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?",
+          "tts_text": "Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Doctor Minh, how often do city families eat dinner together nowadays?",
+          "role": "host_male"
+        },
+        {
+          "speaker": "Dr. Minh",
+          "text": "Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.\\",
+          "index": 2,
+          "display_text": "Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.",
+          "tts_text": "Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.",
+          "role": "guest_male"
+        },
+        {
+          "speaker": "Host",
+          "text": "And when they do sit down together, what gets in the way of conversation?\\",
+          "index": 3,
+          "display_text": "And when they do sit down together, what gets in the way of conversation?",
+          "tts_text": "And when they do sit down together, what gets in the way of conversation?",
+          "role": "host_male"
+        },
+        {
+          "speaker": "Dr. Minh",
+          "text": "Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.\\",
+          "index": 4,
+          "display_text": "Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.",
+          "tts_text": "Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.",
+          "role": "guest_male"
+        },
+        {
+          "speaker": "Host",
+          "text": "How can tenth-grade teenagers help make family meals warmer?\\",
+          "index": 5,
+          "display_text": "How can tenth-grade teenagers help make family meals warmer?",
+          "tts_text": "How can tenth-grade teenagers help make family meals warmer?",
+          "role": "host_male"
+        },
+        {
+          "speaker": "Dr. Minh",
+          "text": "Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.\\",
+          "index": 6,
+          "display_text": "Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.",
+          "tts_text": "Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.",
+          "role": "guest_male"
+        },
+        {
+          "speaker": "Host",
+          "text": "What is one golden rule every household can start tonight?\\",
+          "index": 7,
+          "display_text": "What is one golden rule every household can start tonight?",
+          "tts_text": "What is one golden rule every household can start tonight?",
+          "role": "host_male"
+        },
+        {
+          "speaker": "Dr. Minh",
+          "text": "Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+          "index": 8,
+          "display_text": "Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+          "tts_text": "Keep the dinner table completely 'screen-free' for just thirty minutes. That half hour builds lifelong family bonds!",
+          "role": "guest_male"
+        }
+      ],
+      "transcript_text": "Host: Welcome to Family Matters! Today Dr. Hoang Minh is sharing findings from his recent survey on urban family meals. Dr. Minh, how often do city families eat dinner together nowadays?\nDr. Minh: Thank you! Because of evening classes and overtime work, busy city families in our survey share dinner only about four evenings a week on average.\nHost: And when they do sit down together, what gets in the way of conversation?\nDr. Minh: Definitely smartphones and television screens. When everyone stares at notifications or video clips, family members sit at the same table yet barely talk to one another.\nHost: How can tenth-grade teenagers help make family meals warmer?\nDr. Minh: Teenagers don't need to cook complicated feasts. Simply washing vegetables and setting the table before dinner shows care and gratitude. Our study also found that teenagers who chat regularly with their parents over dinner develop stronger communication skills and experience much lower school stress.\nHost: What is one golden rule every household can start tonight?\nDr. Minh: Keep the dinner table completely \"screen-free\" for just thirty minutes. That half hour builds lifelong family bonds!",
+      "pdf_cross_check": {
+        "transcript_segments_matched": 8,
+        "transcript_segments_total": 8,
+        "question_stems_matched": 5,
+        "question_stems_total": 5
+      }
+    }
+  ]
+}
